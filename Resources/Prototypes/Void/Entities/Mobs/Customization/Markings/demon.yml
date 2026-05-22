@@ -1,0 +1,218 @@
+
+- type: marking
+  id: DemomTail1
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: demon_tail
+
+- type: marking
+  id: DemomTailLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: long
+
+- type: marking
+  id: DemomTailUp
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: up
+
+#Конфликт с СД
+# - type: marking
+#   id: DemonCowEars
+#   bodyPart: HeadSide
+#   markingCategory: HeadSide
+#   speciesRestriction: [DemonSpecies]
+#   sprites:
+#   - sprite: Void/Mobs/Customization/demon.rsi
+#     state: cow_ears
+
+- type: marking
+  id: Ariral
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: ariral
+
+#конфликт с вп
+#- type: marking
+#  id: DemonEars
+#  bodyPart: HeadSide
+#  markingCategory: HeadSide
+#  speciesRestriction: [DemonSpecies]
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: demon_ears
+
+#Конфликт с ВП
+# - type: marking
+#   id: DemonCowHorns
+#   bodyPart: HeadTop
+#   markingCategory: HeadTop
+#   speciesRestriction: [DemonSpecies]
+#   sprites:
+#   - sprite: Void/Mobs/Customization/demon.rsi
+#     state: cow_horns
+
+#Конфликт с ВП
+# - type: marking
+#   id: DemonHornsDeer
+#   bodyPart: HeadTop
+#   markingCategory: HeadTop
+#   speciesRestriction: [DemonSpecies]
+#   sprites:
+#   - sprite: Void/Mobs/Customization/demon.rsi
+#     state: deer_antlers_horns
+
+#Конфликт с ВП
+# - type: marking
+#   id: DemonHornsSmall
+#   bodyPart: HeadTop
+#   markingCategory: HeadTop
+#   speciesRestriction: [DemonSpecies]
+#   sprites:
+#   - sprite: Void/Mobs/Customization/demon.rsi
+#     state: small_horns
+
+#Конфликт с ВП
+#- type: marking
+#  id: DemonChestCowSpots
+#  bodyPart: Chest
+#  markingCategory: Chest
+#  speciesRestriction: [DemonSpecies]
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: cow_spots
+
+#Конфликт с ВП
+#- type: marking
+#  id: DemonChestGuard
+#  bodyPart: Chest
+#  markingCategory: Chest
+#  speciesRestriction: [DemonSpecies]
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: guards_stripes
+
+#Конфликт с ВП
+#- type: marking
+#  id: DemonChestLinesEmperos
+#  bodyPart: Chest
+#  markingCategory: Chest
+#  speciesRestriction: [DemonSpecies]
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: lines_emperos
+
+#Конфликт с ВП
+#- type: marking
+#  id: DemonChestQueenLines
+#  bodyPart: Chest
+#  markingCategory: Chest
+#  speciesRestriction: [DemonSpecies]
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: queen_lines
+
+#Конфликт с ВП
+#- type: marking
+#  id: DemonChestTreeLines
+#  bodyPart: Chest
+#  markingCategory: Chest
+#  speciesRestriction: [DemonSpecies]
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: tree_lines
+
+#Конфликт с да ебать мне че придётся ВСЁ комментить? (Конфликт с ВП)
+#- type: marking
+#  id: DemonChestTrinitySpots
+#  bodyPart: Chest
+#  markingCategory: Chest
+#  speciesRestriction: [DemonSpecies]
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: trinity_spots
+
+#Конфликт с ВП
+#- type: marking
+#  id: DemonGoatee
+#  bodyPart: FacialHair
+#  markingCategory: FacialHair
+#  sprites:
+#  - sprite: Void/Mobs/Customization/demon.rsi
+#    state: goatee
+
+- type: marking
+  id: DemonHorn1
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn1
+
+- type: marking
+  id: DemonHorn2
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn2
+
+- type: marking
+  id: DemonHorn3
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn3
+
+- type: marking
+  id: DemonHorn4
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn4
+
+- type: marking
+  id: DemonHorn5
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn5
+
+- type: marking
+  id: DemonHorn6
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: horn6
+
+- type: marking
+  id: DemonHornLord
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [DemonSpecies]
+  sprites:
+  - sprite: Void/Mobs/Customization/demon.rsi
+    state: lord

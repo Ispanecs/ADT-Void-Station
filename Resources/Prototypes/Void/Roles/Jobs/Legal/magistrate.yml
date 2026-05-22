@@ -1,0 +1,42 @@
+- type: job
+  id: Magistrate
+  name: job-name-magistrate
+  description: job-description-magistrate
+  playTimeTracker: JobMagistrate
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobIAA
+      time: 21600 #6 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 72000 # 20 hrs
+    - !type:AgeRequirement
+      requiredAge: 30
+  startingGear: MagistrateGear
+  icon: "JobIconMagistrate"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Service
+  - Lawyer
+  - Brig
+  - Maintenance
+  - Command
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: MagistrateGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesSunglasses
+    id: MagistratePDA
+    ears: ClothingHeadsetMagistrate
+    # TODO add copy of space law
+  inhand:
+    - BriefcaseBrownFilled
+  storage:
+    back:
+    - BoxSurvival
+    - RubberStampMagistrate
+    - BookSpaceLaw

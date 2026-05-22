@@ -1,0 +1,32 @@
+# Centcom
+- type: roleLoadout
+  id: JobBlueShieldOfficer
+  groups:
+  - BlueshieldBackpack
+  - Trinkets
+
+# Security
+#Конфликт с ВП
+#- type: roleLoadout
+#  id: JobBrigmedic
+#  groups:
+#  - BrigmedicBackpack
+#  - Trinkets
+
+# Legal
+#Конфликт с ВП
+#- type: roleLoadout
+#  id: JobIAA
+#  groups:
+#  - LawyerNeck
+#  - LawyerJumpsuit
+#  - CommonBackpack
+#  - Trinkets
+
+- type: roleLoadout
+  id: JobMagistrate
+  groups:
+  - LawyerNeck
+  - LawyerJumpsuit
+  - CommonBackpack
+  - Trinkets

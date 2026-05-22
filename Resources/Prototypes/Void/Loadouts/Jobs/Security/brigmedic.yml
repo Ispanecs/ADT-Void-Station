@@ -1,0 +1,17 @@
+#Конфликт
+#- type: loadout
+#  id: BrigmedicBackpack
+#  equipment:
+#    back: ClothingBackpackBrigmedic
+
+#Конфликт
+#- type: loadout
+#  id: BrigmedicSatchel
+#  equipment:
+#    back: ClothingBackpackSatchelBrigmedic
+
+#Конфликт
+#- type: loadout
+#  id: BrigmedicDuffel
+#  equipment:
+#    back: ClothingBackpackDuffelBrigmedic

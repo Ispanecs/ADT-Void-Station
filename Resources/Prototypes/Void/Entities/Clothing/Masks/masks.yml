@@ -1,0 +1,71 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingBalaclavaMask
+  name: балаклава
+  description: Готов или нет?
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Mask/balaclava.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Mask/balaclava.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskInterloper
+  name: маска постороннего
+  description: Не ощущается реальной.
+  suffix: Для ивентов
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Mask/interlopermask.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Mask/interlopermask.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true
+
+- type: entity
+  parent: [ ClothingMaskGas ]
+  id: ClothingMaskGasMetrocop
+  name: имплантированный противогаз
+  description: Люди носят такой противогаз по разным причинам, но понятно одно, жизнь обошлась с ними не лучшим образом, они не могут его больше снять, скорее всего. На боковой лобной части противогаза, выгравирована цифра ноль.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Mask/metrocop.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Mask/metrocop.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95

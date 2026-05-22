@@ -1,0 +1,9 @@
+#Конфликт с СД
+# - type: radioChannel
+#   id: Legal
+#   name: chat-radio-legal
+#   keycode: 'ю'
+#   frequency: 9000
+#   color: "#6e87de"
+#   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
+#   longRange: true

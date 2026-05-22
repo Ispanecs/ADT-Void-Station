@@ -1,0 +1,23 @@
+#Конфликт с Корваксом (ВП)
+#- type: entity
+#  id: BaseStationGoal
+#  abstract: true
+#  components:
+#    - type: StationGoal
+#      goals:
+#      - ShuttleRescue
+#      # - SolarPanels
+#      - Artifacts
+#      - Bar
+#      - Containment
+#      - Botany
+#      - Retranslator
+#      - ShuttlePatrol
+#      - Mechs
+
+#- type: entity
+#  id: BaseStationSiliconLawNTDefault
+#  abstract: true
+#  components:
+#  - type: SiliconLawProvider
+#    laws: NTDefault

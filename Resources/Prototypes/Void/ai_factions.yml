@@ -1,0 +1,43 @@
+- type: npcFaction
+  id: AntiMeteor
+  hostile:
+    - Meteor
+
+- type: npcFaction
+  id: Meteor
+
+- type: npcFaction
+  id: Slimecat
+  hostile:
+    - Xeno
+    - Zombie
+    - Mouse
+    - SimpleHostile
+    - Dragon
+
+- type: npcFaction
+  id: SlimecatAgressive
+  hostile:
+    - Syndicate
+    - Xeno
+    - Zombie
+    - Mouse
+    - SimpleHostile
+    - Dragon
+    - Revolutionary
+    - NanoTrasen
+    - SyndicateAgent
+    - PetsNT
+    - Passive
+    - SimpleNeutral
+    - Wizard
+
+- type: npcFaction
+  id: SyndicateAgent
+  hostile:
+    - SimpleHostile
+    - Xeno
+    - Zombie
+    - SlimecatAgressive
+    - Dragon
+    - Wizard

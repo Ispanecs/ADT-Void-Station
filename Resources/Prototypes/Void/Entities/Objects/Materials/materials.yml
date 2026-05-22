@@ -1,0 +1,38 @@
+
+# type: Food --> type: Edible
+- type: entity
+  parent: MaterialBase
+  id: MaterialCleenka
+  name: Cleenka
+  suffix: Full
+  components:
+  - type: Stack
+    stackType: Cloth
+    baseLayer: base
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fiber
+        Quantity: 3
+  - type: Sprite
+    state: cloth_3
+    layers:
+    - state: cloth_3
+      map: ["base"]
+  - type: Appearance
+  - type: Edible
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 5
+  - type: Tag
+    tags:
+      - ClothMade

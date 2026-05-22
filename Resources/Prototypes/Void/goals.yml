@@ -1,0 +1,38 @@
+- type: stationGoal
+  id: ShuttleRescue
+  text: station-goal-shuttle-rescue
+
+#Конфликт с Корваксом
+# - type: stationGoal
+#   id: SolarPanels
+#   text: station-goal-solar-panels
+
+#Конфликт с Корваксом
+# - type: stationGoal
+#   id: Artifacts
+#   text: station-goal-artifacts
+
+- type: stationGoal
+  id: Bar
+  text: station-goal-bar
+
+- type: stationGoal
+  id: Containment
+  text: station-goal-containment
+
+#Конфликт с Корваксом
+# - type: stationGoal
+#   id: Botany
+#   text: station-goal-botany
+
+- type: stationGoal
+  id: Retranslator
+  text: station-goal-retranslator
+
+- type: stationGoal
+  id: ShuttlePatrol
+  text: station-goal-shuttle-patrol
+
+- type: stationGoal
+  id: Mechs
+  text: station-goal-mech
