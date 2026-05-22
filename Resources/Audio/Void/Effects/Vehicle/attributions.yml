@@ -1,0 +1,11 @@
+- files:
+  - vehiclestartup.ogg
+  - vehicleengineindle.ogg
+  license: "CC-BY-4.0"
+  copyright: "InspectorJ (www.jshaw.co.uk) of Freesound.org"
+  source: "https://freesound.org/people/InspectorJ/sounds/338954/"
+
+- files: ["carhorn.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "/tg/station"
+  source: "https://github.com/tgstation/tgstation/commit/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a"
