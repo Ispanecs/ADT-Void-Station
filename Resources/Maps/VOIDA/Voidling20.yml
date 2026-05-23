@@ -9419,9 +9419,6 @@ entities:
           occludes: True
           ents:
           - 1504
-    missingComponents:
-    - StorageFill
-    - Storage
 - proto: BrigTimerElectronics
   entities:
   - uid: 1505
@@ -23657,13 +23654,6 @@ entities:
     - type: Transform
       pos: -28.481094,79.495514
       parent: 1
-- proto: ClothingEyesAerostatic
-  entities:
-  - uid: 7309
-    components:
-    - type: Transform
-      pos: -2.4767041,81.84465
-      parent: 1
 - proto: ClothingEyesGlasses
   entities:
   - uid: 7311
@@ -23921,26 +23911,12 @@ entities:
       parent: 7318
     - type: Physics
       canCollide: False
-- proto: ClothingNeckDiscoDetective
-  entities:
-  - uid: 7428
-    components:
-    - type: Transform
-      pos: -3.5629978,82.03827
-      parent: 1
 - proto: ClothingNeckGoldAutismPin
   entities:
   - uid: 7429
     components:
     - type: Transform
       pos: -6.43099,88.711716
-      parent: 1
-- proto: ClothingOuterAerostatic
-  entities:
-  - uid: 7433
-    components:
-    - type: Transform
-      pos: -2.5168958,82.4473
       parent: 1
 - proto: ClothingOuterArmorBulletproof
   entities:
@@ -23963,13 +23939,6 @@ entities:
     components:
     - type: Transform
       pos: 21.5,93.5
-      parent: 1
-- proto: ClothingOuterArmorHeavyRed
-  entities:
-  - uid: 7463
-    components:
-    - type: Transform
-      pos: -35.499004,97.84375
       parent: 1
 - proto: ClothingOuterArmorRiot
   entities:
@@ -44645,34 +44614,6 @@ entities:
         entity_storage: !type:Container
           showEnts: False
           occludes: True
-          ents:
-          - 9247
-          - 9260
-          - 9252
-          - 9250
-          - 9261
-          - 9256
-          - 9251
-          - 9253
-          - 9243
-          - 9244
-          - 9240
-          - 9257
-          - 9241
-          - 9254
-          - 9249
-          - 9258
-          - 9248
-          - 9239
-          - 9255
-          - 9245
-          - 9242
-          - 9246
-          - 9259
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: LockerMedicalFilled
   entities:
   - uid: 12588
@@ -45726,15 +45667,6 @@ entities:
 - proto: OrganArachnidStomach
   entities:
   - uid: 9251
-    components:
-    - type: Transform
-      parent: 9238
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: OrganDemonHeart
-  entities:
-  - uid: 9252
     components:
     - type: Transform
       parent: 9238
@@ -49952,28 +49884,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 33.5,77.5
       parent: 1
-- proto: RiotBulletShield
-  entities:
-  - uid: 14240
-    components:
-    - type: Transform
-      pos: 21.5,90.5
-      parent: 1
-  - uid: 14241
-    components:
-    - type: Transform
-      pos: 21.5,91.5
-      parent: 1
-  - uid: 14242
-    components:
-    - type: Transform
-      pos: 21.5,92.5
-      parent: 1
-  - uid: 14243
-    components:
-    - type: Transform
-      pos: 21.5,93.5
-      parent: 1
 - proto: RiotLaserShield
   entities:
   - uid: 14244
@@ -51644,18 +51554,18 @@ entities:
     - type: Transform
       pos: 13.5,109.5
       parent: 1
-- proto: SpawnMobMedibot
-  entities:
-  - uid: 14567
-    components:
-    - type: Transform
-      pos: 17.5,111.5
-      parent: 1
-  - uid: 14568
-    components:
-    - type: Transform
-      pos: 21.5,111.5
-      parent: 1
+# - proto: SpawnMobMedibot
+#   entities:
+#   - uid: 14567
+#     components:
+#     - type: Transform
+#       pos: 17.5,111.5
+#       parent: 1
+#   - uid: 14568
+#     components:
+#     - type: Transform
+#       pos: 21.5,111.5
+#       parent: 1
 - proto: SpawnMobShiva
   entities:
   - uid: 14569
@@ -54151,8 +54061,8 @@ entities:
     - type: Transform
       pos: -15.5,90.5
       parent: 1
-    - type: Advertise
-      nextAdvertisementTime: 67670.6995269
+    # - type: Advertise
+    #   nextAdvertisementTime: 67670.6995269
   - uid: 15443
     components:
     - type: Transform
@@ -54241,8 +54151,8 @@ entities:
     - type: Transform
       pos: -14.5,75.5
       parent: 1
-    - type: Advertise
-      nextAdvertisementTime: 67482.6997289
+    # - type: Advertise
+    #   nextAdvertisementTime: 67482.6997289
 - proto: VendingMachineDinnerware
   entities:
   - uid: 15476
@@ -54316,8 +54226,8 @@ entities:
     - type: Transform
       pos: -7.5,73.5
       parent: 1
-    - type: Advertise
-      nextAdvertisementTime: 67627.6996189
+    # - type: Advertise
+    #   nextAdvertisementTime: 67627.6996189
 - proto: VendingMachineRestockCostumes
   entities:
   - uid: 15489
@@ -54353,8 +54263,8 @@ entities:
     - type: Transform
       pos: -8.5,73.5
       parent: 1
-    - type: Advertise
-      nextAdvertisementTime: 67383.6998369
+    # - type: Advertise
+    #   nextAdvertisementTime: 67383.6998369
 - proto: VendingMachineShamblersJuice
   entities:
   - uid: 15496

@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseDecoy
+  id: BalloonCE
+  name: надувной старший инженер
+  description: Шарик в виде Старшего Инженера, похоже вас разыграли!
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Tools/Decoys/CE.rsi
+    layers:
+    - state: aballoon
+      map: ["unfoldedLayer"]
+    - state: folded
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: BaseDecoy
+  id: BalloonRD
+  name: надувной научный руководитель
+  description: Шарик в виде Научного руководителя, похоже вас разыграли!
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Tools/Decoys/RD.rsi
+    layers:
+    - state: aballoon
+      map: ["unfoldedLayer"]
+    - state: folded
+      map: ["foldedLayer"]
+      visible: false

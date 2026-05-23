@@ -111,9 +111,9 @@
   description: Пока остальной отдел поставок пилит бюджет, она ворует ваши трусы!
   components:
   - type: Sprite
-    sprite: Mobs/Animals/mothroach/spacemothroach.rsi
+    sprite: Void/Mobs/Animals/spacemothroach.rsi
   - type: Clothing
-    sprite: Mobs/Animals/mothroach/spacemothroach.rsi
+    sprite: Void/Mobs/Animals/spacemothroach.rsi
   - type: Temperature
     heatDamageThreshold: 423
     coldDamageThreshold: 0

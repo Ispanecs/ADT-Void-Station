@@ -27,9 +27,9 @@
   description: Стол со скатертью, сказать больше нечего.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Tables/carpet1.rsi
+    sprite: Void/Structures/Furniture/Tables/carpet1.rsi
   - type: Icon
-    sprite: Structures/Furniture/Tables/carpet1.rsi
+    sprite: Void/Structures/Furniture/Tables/carpet1.rsi
   - type: Damageable
     damageModifierSet: Wood
   - type: Destructible

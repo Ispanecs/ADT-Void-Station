@@ -12,7 +12,7 @@
     normalState: normal-unshaded
     denyState: deny-unshaded
   - type: DatasetVocalizer
-    pack: ClothesMateAds
+    dataset: ClothesMateAds #ОБЯЗАТЕЛЬНО НЕ ЗАБЫВАТЬ ВПИСЫВАТЬ ДАТАСЕТ!!!!!!!!!!!!
   - type: Speech
   - type: Tag
   - type: Sprite
