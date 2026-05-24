@@ -1,0 +1,9 @@
+- type: entity
+  id: ClothingBeltSheathkatanaFilled
+  parent: ClothingBeltSheathkatana
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - KatanaVS

@@ -17,11 +17,11 @@
         ejectVerbText: sheath-eject-verb
         whitelist:
           tags:
-          - Katana
+          - KatanaVS
   - type: ItemMapper
     mapLayers:
       sheath-sabre:
         whitelist:
           tags:
-          - Katana
+          - KatanaVS
   - type: Appearance

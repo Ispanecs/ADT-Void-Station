@@ -1,0 +1,30 @@
+### Мне похуй, сделаю отдельный прототип :troll:
+- type: entity
+  name: катана
+  parent: [ BaseSword, BaseMajorContraband ]
+  id: KatanaVS
+  description: Это катана.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/katana.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 15
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    storedSprite:
+      state: storage
+      sprite: Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+    shape:
+    - 0,0,0,3
+  - type: Clothing
+    sprite: Objects/Weapons/Melee/katana.rsi
+    slots:
+    - Back
+    - Belt
+  - type: DisarmMalus
+  - type: Tag
+    tags:
+    - KatanaVS

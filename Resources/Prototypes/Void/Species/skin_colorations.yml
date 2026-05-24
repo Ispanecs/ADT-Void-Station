@@ -1,0 +1,4 @@
+- type: skinColoration
+  id: KatunianToned
+  strategy: !type:ClampedHsvColoration
+    value: [0.175, 1]
