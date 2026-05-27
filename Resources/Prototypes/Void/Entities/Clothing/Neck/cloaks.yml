@@ -2,6 +2,7 @@
   parent: [ClothingNeckBase, BaseCentcommContraband]
   id: ClothingNeckCloakCentCom
   name: фирменный плащ Центкома
+  suffix: VCC
   description: Дорогой плащ, который вам не по карману
   components:
   - type: Sprite
@@ -19,6 +20,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckDispatchCentCom
+  suffix: VCC
   name: плащ диспетчера
   description: Плащ, который обычно носят диспетчеры Центрального Командования.
   components:
@@ -28,6 +30,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckOperatorCentCom
+  suffix: VCC
   name: плащ оператора
   description: Плащ оператора Центрального Командования. На внутренней части воротника имеется прикольный миниатюрный микрофон который можно подключить к гарнитуре.
   components:
@@ -37,6 +40,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckWhiteCentCom
+  suffix: VCC
   name: белый плащ Центком
   description: Белый плащ Центрального Командования, их на самом деле много кто носит. Но обычно если те кто, действительно, должен их носить, вас в нём увидят - исход будет печальным.
   components:
@@ -45,6 +49,7 @@
 
 - type: entity
   parent: ClothingNeckBase
+  suffix: VCC
   id: ClothingNeckIntendantCentCom
   name: плащ интенданта
   description: Плащ носимый интендантом Центкома, на внутренней стороне всё ещё находится бирка с большим количеством нулей, вы даже не можете назвать итоговое число.

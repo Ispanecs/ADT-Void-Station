@@ -2,7 +2,7 @@
   id: ADT_Box
   mapName: 'Cyberiada'
   mapPath: /Maps/ADTMaps/ADTStations/adt_cyberiada.yml
-  minPlayers: 35
+  minPlayers: 5 #35
   maxPlayers: 60
   stations:
     ADT_Boxstation:

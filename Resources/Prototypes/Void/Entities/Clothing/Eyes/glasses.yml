@@ -16,6 +16,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseCentcommContraband]
   id: ClothingEyesGlassesCentcom
   name: очки офицера центрального командования
+  suffix: VCC
   description: Пара очков стоящая как пара твоих почек.
   components:
   - type: Sprite
@@ -51,6 +52,32 @@
     sprite: Void/Clothing/Eyes/Glasses/tacticoolsec.rsi
   - type: Clothing
     sprite: Void/Clothing/Eyes/Glasses/tacticoolsec.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Construction
+    graph: GlassesSecHUD
+    node: glassesSec
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
+  parent: [ClothingEyesBase, BaseRestrictedContraband]
+  id: ClothingEyesSwatGlasses
+  name: очки спецназа
+  description: Очки носимые спецназом. Не имеют всяких девчачих украшений вроде встроенного интерфейса охраны. 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/swatglasses.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/swatglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5

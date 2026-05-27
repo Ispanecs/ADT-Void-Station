@@ -1,0 +1,13 @@
+- type: guideEntry
+  id: VoidRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  priority: 0
+  text: "/ServerInfo/Guidebook/Void/ServerRules/VoidRules.xml"
+
+- type: guideEntry
+  id: BuildRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  priority: 0
+  text: "/ServerInfo/Guidebook/Void/ServerRules/BuildRules.xml"

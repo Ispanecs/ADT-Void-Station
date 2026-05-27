@@ -17,6 +17,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Timer = Robust.Shared.Timing.Timer;
+using Content.Server.Chat.Managers;
 
 namespace Content.Server.Shuttles.Systems;
 
@@ -44,6 +45,8 @@ public sealed partial class EmergencyShuttleSystem
     /// How long after the transit is over to end the round.
     /// </summary>
     private readonly TimeSpan _bufferTime = TimeSpan.FromSeconds(5);
+
+    [Dependency] private readonly IChatManager _chatManager = default!;
 
     /// <summary>
     /// <see cref="CCVars.EmergencyShuttleMinTransitTime"/>
@@ -218,9 +221,10 @@ public sealed partial class EmergencyShuttleSystem
         {
             ShuttlesLeft = true;
             _chatSystem.DispatchGlobalAnnouncement(Loc.GetString("emergency-shuttle-left", ("transitTime", $"{TransitTime:0}")));
-
-            Timer.Spawn((int)(TransitTime * 1000) + _bufferTime.Milliseconds, () => _roundEnd.EndRound(), _roundEndCancelToken?.Token ?? default);
-        }
+            // Void Sector tweak (5 minutes) start | Сделал хардкодом, потому что [[Specil Deal]]
+            Timer.Spawn((int)(TransitTime * 1000) + _bufferTime.Milliseconds + 300000, () => _roundEnd.EndRound(), _roundEndCancelToken?.Token ?? default);
+            Timer.Spawn((int)(TransitTime * 1000), () => _chatManager.DispatchServerAnnouncement("До конца раунда: 5 минут."));
+        } // Void Sector tweak end | VTODO: нормальные сука переменные!!!!!!!!!!!!!!
 
         // All the others.
         if (_consoleAccumulator < minTime)

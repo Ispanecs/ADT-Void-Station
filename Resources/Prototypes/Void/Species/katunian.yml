@@ -1,12 +1,31 @@
 - type: species
   id: Katunian
-  name: species-name-katunian
+  name: Катунианец
   roundStart: true
   prototype: MobKatunian
   sprites: MobKatunianSprites
   markingLimits: MobKatunianMarkingLimits
   dollPrototype: MobKatunianDummy
   skinColoration: KatunianToned
+  #ADT добавочка
+  shortDesc: коты I guess
+  category: Special
+  #description: "/ServerInfo/Void/..."
+  pros:
+  - Здесь будут плюсы
+  special:
+  - Здесь будут особенности
+  cons:
+  - Здесь будут минусы
+  defaultLanguages:
+  - GalacticCommon
+  # uniqueLanguages:
+  # - VoxPidgin
+  minAge: 20
+  maxAge: 100
+  oldAge: 46
+  youngAge: 31
+  #Конец ADT добавочки
 
 - type: speciesBaseSprites
   id: MobKatunianSprites

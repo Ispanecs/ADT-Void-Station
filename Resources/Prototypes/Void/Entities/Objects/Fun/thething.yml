@@ -1,0 +1,25 @@
+﻿- type: entity
+  name: баночка рутбира
+  description: Вкуснейший рутбир, теперь в компактной банке!
+  parent: [VolatileGrenadeBase, GrenadeBase]
+  id: thething
+  suffix: Адмемы
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Fun/thething.rsi
+  - type: ExplodeOnTrigger
+    keysIn:
+    - timer
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 10
+    intensitySlope: 3
+    totalIntensity: 240 # about a ~4 tile radius
+    canCreateVacuum: false
+  - type: TimerTrigger
+    beepSound:
+      path: "/Audio/Void/Effects/Fun/the_thing.ogg" 
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 3 # 2 beeps total (at 0 and 2)

@@ -142,18 +142,26 @@
           - /Maps/ADTMaps/Shuttles/sec_shuttle.yml
         # ADT-Security-End
 
+# - type: entity
+#   id: BaseStationCentcomm
+#   abstract: true
+#   components:
+#     - type: StationCentcomm
+#       map: "/Maps/ADTMaps/ADTStations/adt_centcomm.yml" #ADT_Centcomm
+
 - type: entity
   id: BaseStationCentcomm
   abstract: true
   components:
     - type: StationCentcomm
-      map: "/Maps/ADTMaps/ADTStations/adt_centcomm.yml" #ADT_Centcomm
+      map: "/Maps/Maps_Void/VoidlingActual.yml" #Void Sector Centcomm. Менять данный путь, чтобы сменить ЦК. Принимает ТОЛЬКО гриды!
 
 - type: entity
   id: BaseStationEvacuation
   abstract: true
   components:
     - type: StationEmergencyShuttle
+      grid: "/Maps/Maps_Void/Shuttles/emergency.yml"
 
 - type: entity
   id: BaseStationAlertLevels

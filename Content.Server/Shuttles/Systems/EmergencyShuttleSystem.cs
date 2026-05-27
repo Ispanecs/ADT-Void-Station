@@ -23,6 +23,7 @@ using Content.Shared.DeviceNetwork;
 using Content.Shared.DeviceNetwork.Components;
 using Content.Shared.GameTicking;
 using Content.Shared.Localizations;
+using Content.Shared.Parallax;
 using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.Events;
 using Content.Shared.Shuttles.Systems;
@@ -227,8 +228,8 @@ public sealed partial class EmergencyShuttleSystem : SharedEmergencyShuttleSyste
     ///     When the escape shuttle finishes FTL (docks at centcomm), have the timers display the round end countdown
     /// </summary>
     private void OnEmergencyFTLComplete(EntityUid uid, EmergencyShuttleComponent component, ref FTLCompletedEvent args)
-    {
-        var countdownTime = TimeSpan.FromSeconds(ConfigManager.GetCVar(CCVars.RoundRestartTime));
+    {           // VTODO: Здесь бы вставить переменную, но.........
+        var countdownTime = TimeSpan.FromSeconds(420);
         var shuttle = args.Entity;
         if (TryComp<DeviceNetworkComponent>(shuttle, out var net))
         {
@@ -244,7 +245,7 @@ public sealed partial class EmergencyShuttleSystem : SharedEmergencyShuttleSyste
 
             // by popular request
             // https://discord.com/channels/310555209753690112/770682801607278632/1189989482234126356
-            if (_random.Next(1000) == 0)
+            if (_random.Next(10000) == 0) // Void Sector tweak | NO FUN ALLOWED - TwiceNoRise
             {
                 payload.Add(ScreenMasks.Text, ShuttleTimerMasks.Kill);
                 payload.Add(ScreenMasks.Color, Color.Red);
@@ -533,6 +534,8 @@ public sealed partial class EmergencyShuttleSystem : SharedEmergencyShuttleSyste
         }
 
         var map = _mapSystem.CreateMap(out var mapId);
+        var parallax = EnsureComp<ParallaxComponent>(map); // Void Sector tweak | Я нахуй с ума сойду, ЗАЧЕМ делать цк гридом
+        parallax.Parallax = "VoidlingParallax";
         if (!_loader.TryLoadGrid(mapId, component.Map, out var grid))
         {
             Log.Error($"Failed to set up centcomm grid!");

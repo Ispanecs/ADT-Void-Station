@@ -1,0 +1,151 @@
+################################################################################
+##### General ##################################################################
+
+[net]
+port = 1212
+bindto = "0.0.0.0"
+log_late_msg = false
+
+#[database]
+#engine = "postgres"
+#pg_host = "{{ postgres_host }}"
+#pg_port = {{ postgres_port }}
+#pg_database = "{{ ss14setup_db_name }}"
+#pg_username = "{{ ss14setup_db_user }}"
+#pg_password = "{{ ss14setup_db_passwd }}"
+
+[game]
+hostname = "[18+][RU][MRP+] 🌌 VoidSector - Посреди Пустоты! 🌌"
+desc = """
+Приветствуем! Добро пожаловать в Пустотный сектор, место на краю галактики, где до ближайшей населенной звезды несколько сотен световых лет!
+
+Пустотный сектор готов предоставить вам:
+[🎭] Отличный уровень ролевого отыгрыша.
+[📡] Отзывчивая и всегда готовая помочь администрация.
+[📝] Возможность играть за сотрудников ЦентКома. Отвечайте на запросы или отклоняйте их как сами того пожелаете!
+[💪] Система ношения на руках, вам больше не надо таскать кого-то за собой!
+[🔪] Рецепты для готовки прямо в игре. Не надо гадать что можно, а что нельзя приготовить!
+[👻] Система возрождения, теперь вам не нужно просить администратора возродить вас!
+[⚒️] Увеличенное количество рецептов строительства, строй что душа желает!
+[🌐] Собственная Википедия и лор сектора! История вершится вокруг вас!
+
+Присоединяйтесь к Пустотному Сектору, полному неожиданностей и опасностей!
+"""
+soft_max_players = 100
+lobbyduration = 180
+defaultpreset = "Extended"
+fallbackpreset = "Extended"
+map_pool = "DefaultMapPool"
+contraband_examine = false
+
+[replay]
+auto_record = true
+
+[hub]
+advertise = false
+tags = "lang:ru,region:eu_e,rp:med,18+"
+server_url = "ss14://37.27.103.62:1212"
+
+[server]
+rules_file = "VoidRuleset"
+uptime_restart_minutes = 10080
+lobby_name = "VoidSector"
+lobby_right_panel_width = 520
+
+[console]
+login_host_user = "Ispanecss"
+
+[admin]
+see_own_notes = true
+note_fresh_days = 0
+message_wait_time = 1
+new_player_threshold = 600
+afk_time = 180.0
+new_player_join_sound = true
+admins_count_in_playercount = true
+
+[ahelp]
+admin_prefix = true
+admin_prefix_webhook = true
+
+[interaction]
+rate_limit_announce_admins_delay = -1
+
+[infolinks]
+discord = "https://discord.gg/Tc5RNEWVWS"
+wiki = "https://voidsector.org/"
+
+################################################################################
+##### In Game ##################################################################
+
+[atmos]
+space_wind = true
+monstermos_rip_tiles = true
+mmos_spacing_speed = 0.95
+mmos_max_wind = 1000.0
+
+[biomass]
+easy_mode = false
+
+[control]
+storage_limit = 2
+
+[whitelist]
+enabled = true
+prototype_list = "voidSectorWhitelist"
+
+[vote]
+timermap = 30
+map_enabled = true
+restart_not_allowed_when_admin_online = true
+
+[shuttle]
+arrivals_planet = false
+arrivals_returns = true
+emergency_early_launch_allowed = true
+emergency_dock_time = 300.0
+emergency_authorize_time = 15.0
+recall_turning_point = 0.1
+auto_call_time = 300
+auto_call_extension_time = 90
+arrivals_map = "Maps/Misc/terminal.yml"
+mass_limit = 6500
+
+[rules]
+time = 90.0
+
+[tips]
+enabled = false
+
+[ooc]
+enable_during_round = false
+
+[looc]
+enabled_crit = true
+
+[chat]
+max_announcement_length = 1024
+
+[ic]
+flavor_text = true
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+#ahelp_webhook = "{{ ahelp_void }}"
+#ahelp_avatar = "https://i.imgur.com/e9AMvev.png"
+#ahelp_footer_icon = "https://i.imgur.com/e9AMvev.png"
+#round_update_webhook = "{{ round_void }}"
+#round_end_role = "1239615123732299897"
+#rich_main_icon_id = "voidsector"
+#on_call_ping = "1210244969995046912"
+
+################################################################################
+##### Metrics ##################################################################
+
+[metrics]
+enabled = true
+host = "127.0.0.1"
+port = 9001
+runtime = false

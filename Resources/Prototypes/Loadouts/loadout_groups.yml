@@ -49,7 +49,7 @@
   - HarmonicaInstrument
   - SynthesizerInstrument
   - ADTModStorageVoucher
-  - ADTClothingGeorgeRibbonPin
+  # - ADTClothingGeorgeRibbonPin
   - ADTClothingMaskPaperBlank
   #ADT-tweak-end
   - TowelColorBlack
@@ -75,7 +75,7 @@
   - ADTClothingHandsRingTurk
   - ADTHandheldStationMapUnpowered
   - ADTModStorageVoucher
-  - ADTClothingGeorgeRibbonPin
+  # - ADTClothingGeorgeRibbonPin
   - ADTFlowerWreath1
   - ADTFlowerWreath2
   - ADTFlowerWreath3
