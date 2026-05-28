@@ -82,11 +82,11 @@
   path:
     path: /Audio/ADT/Jukebox/lateraligator.ogg
 
-- type: jukebox
-  id: MJSC
-  name: Michael Jackson - Smooth Criminal
-  path:
-    path: /Audio/ADT/Jukebox/MJSC.ogg
+# - type: jukebox
+#   id: MJSC
+#   name: Michael Jackson - Smooth Criminal
+#   path:
+#     path: /Audio/ADT/Jukebox/MJSC.ogg
 
 - type: jukebox
   id: ESCPMidnightRoom

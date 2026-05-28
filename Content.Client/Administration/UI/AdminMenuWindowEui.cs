@@ -3,6 +3,7 @@ using Content.Shared.Administration;
 using Content.Shared.Eui;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Utility;
+using Robust.Shared.Audio;
 
 namespace Content.Client.Administration.UI
 {
@@ -22,9 +23,14 @@ namespace Content.Client.Administration.UI
             SendMessage(new AdminAnnounceEuiMsg.DoAnnounce
             {
                 Announcement = Rope.Collapse(_window.Announcement.TextRope),
-                Announcer =  _window.Announcer.Text,
-                AnnounceType =  (AdminAnnounceType) (_window.AnnounceMethod.SelectedMetadata ?? AdminAnnounceType.Station),
+                Announcer = _window.Announcer.Text,
+                AnnounceType = (AdminAnnounceType)(_window.AnnounceMethod.SelectedMetadata ?? AdminAnnounceType.Station),
                 CloseAfter = !_window.KeepWindowOpen.Pressed,
+                // Void Sector start
+                AnnounceColor = Color.FromHex(_window.Color.Text),
+                SoundSpecifier = new SoundPathSpecifier(_window.AnnounceSound.Text.Trim(),
+                    AudioParams.Default.WithVolume(_window.AnnounceVolume.Value)),
+                // Void Sector start
             });
 
         }

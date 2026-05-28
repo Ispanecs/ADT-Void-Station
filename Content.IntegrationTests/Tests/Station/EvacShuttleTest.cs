@@ -58,7 +58,7 @@ public sealed class EvacShuttleTest
         Assert.That(entMan.HasComponent<MapGridComponent>(shuttle));
 
         var centcomm = station.Comp.Entity!.Value;
-        Assert.That(entMan.HasComponent<MapComponent>(centcomm));
+        Assert.That(entMan.HasComponent<MapGridComponent>(centcomm));
 
         var centcommMap = station.Comp.MapEntity!.Value;
         Assert.That(entMan.HasComponent<MapComponent>(centcommMap));

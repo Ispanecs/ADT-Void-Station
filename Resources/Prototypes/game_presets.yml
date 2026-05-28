@@ -96,9 +96,9 @@
   id: Greenshift
   alias:
   - greenshift
-  - shittersafarideluxeedition
+  # - shittersafarideluxeedition #VS tweak
   name: greenshift-title
-  showInVote: false #ADT_Tweak
+  showInVote: true #VS tweak
   description: greenshift-description
   rules:
   - SpaceTrafficControlFriendlyEventScheduler
@@ -132,6 +132,7 @@
   description: secret-description
   rules:
     - Secret
+  bannedRound: 2 #VS tweak
 
 - type: gamePreset
   id: Sandbox

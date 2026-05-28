@@ -63,3 +63,15 @@
     sprite: Void/Clothing/Uniforms/Jumpsuit/dripsuit.rsi
   - type: Clothing
     sprite: Void/Clothing/Uniforms/Jumpsuit/dripsuit.rsi
+
+# СБ апдейт
+- type: entity
+  parent: [ClothingUniformBase, BaseSecurityContraband]
+  id: ClothingUniformCorporateUniform
+  name: корпоративная форма СБ
+  description: Покажите всем как сильно вы любите своего №1 держателя цен на рынке плазмы! Не дает юридической защиты от превышения полномочий или летальной силы.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/CorporateSec.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/CorporateSec.rsi

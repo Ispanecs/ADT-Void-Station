@@ -8,3 +8,6 @@ admin-announce-type-server = Сервер
 admin-announce-keep-open = Держать открытым
 cmd-announceui-desc = Открывает интерфейс меню объявлений.
 cmd-announceui-help = Использование: announceui
+admin-announce-color = Цвет в HEX
+admin-announce-sound = Звук объявления
+admin-announce-sound-path = Путь к звуку

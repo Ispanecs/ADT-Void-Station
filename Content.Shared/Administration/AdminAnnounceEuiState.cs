@@ -1,5 +1,6 @@
 using Content.Shared.Eui;
 using Robust.Shared.Serialization;
+using Robust.Shared.Audio;
 
 namespace Content.Shared.Administration
 {
@@ -23,6 +24,10 @@ namespace Content.Shared.Administration
             public string Announcer = default!;
             public string Announcement = default!;
             public AdminAnnounceType AnnounceType;
+            //Void Sector tweak start
+            public SoundSpecifier SoundSpecifier = default!;
+            public Color AnnounceColor = default!;
+            //Void Sector tweak end
         }
     }
 }

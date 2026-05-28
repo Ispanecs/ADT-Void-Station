@@ -161,7 +161,6 @@
   abstract: true
   components:
     - type: StationEmergencyShuttle
-      grid: "/Maps/Maps_Void/Shuttles/emergency.yml"
 
 - type: entity
   id: BaseStationAlertLevels

@@ -2,14 +2,14 @@
   id: ADT_Cluster
   mapName: 'Cluster'
   mapPath: /Maps/ADTMaps/ADTStations/adt_cluster.yml
-  minPlayers: 20
+  minPlayers: 0
   maxPlayers: 35
   stations:
     ADT_Cluster:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/ADTMaps/Shuttles/adt_emergency.yml
+          emergencyShuttlePath: /Maps/Shuttles/emergency_omega.yml
         - type: StationCargoShuttle
           path: /Maps/ADTMaps/Shuttles/adt_cargo.yml
         - type: StationNameSetup

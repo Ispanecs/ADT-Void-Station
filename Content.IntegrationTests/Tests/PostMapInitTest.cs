@@ -48,7 +48,7 @@ namespace Content.IntegrationTests.Tests
 
         private static readonly string[] Grids =
         {
-        //    "/Maps/centcomm.yml",
+           "/Maps/centcomm.yml",
             AdminTestArenaSystem.ArenaMapPath
         };
 

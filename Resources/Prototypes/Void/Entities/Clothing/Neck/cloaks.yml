@@ -65,3 +65,13 @@
   components:
   - type: Sprite
     sprite: Void/Clothing/Neck/decker_headset.rsi
+
+# СБ Апдейт
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckPonchoSec
+  name: пончо службы безопасности
+  description: Удобное и размашистое пончо которое отлично подходит для эффектных появлений.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/ponchoSec.rsi

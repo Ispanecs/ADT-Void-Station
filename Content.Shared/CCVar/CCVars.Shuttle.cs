@@ -174,7 +174,7 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.Server | AdminFlags.Mapping, min: 0, max: int.MaxValue)]
     public static readonly CVarDef<int> EmergencyShuttleAutoCallTime =
-        CVarDef.Create("shuttle.auto_call_time", 270, CVar.SERVERONLY); //ADT-Tweak - автоматический эвак вызывается после 3 часов
+        CVarDef.Create("shuttle.auto_call_time", 0, CVar.SERVERONLY); //VS tweak - эвак отключён для будущих длинных смен
 
     /// <summary>
     ///     Time in minutes after the round was extended (by recalling the shuttle) to call
@@ -223,7 +223,7 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> TileBreakEnergyMultiplier =
-        CVarDef.Create("shuttle.impact.tile_break_energy", 3000f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.impact.tile_break_energy", 1000f, CVar.SERVERONLY); //3000
 
     /// <summary>
     /// Multiplier of damage done to entities on colliding areas
