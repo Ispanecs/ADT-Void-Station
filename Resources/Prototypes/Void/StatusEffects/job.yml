@@ -1,0 +1,23 @@
+#- type: jobIcon
+#  parent: JobIcon
+#  id: JobIconIAA
+#  icon:
+#    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+#    state: IAA
+#  jobName: job-name-iaa
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMagistrate
+  icon:
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+    state: Magistrate
+  jobName: job-name-magistrate
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconBlueshield
+  icon:
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+    state: Blueshield
+  jobName: job-name-blueshieldofficer

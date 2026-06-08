@@ -1,6 +1,20 @@
 - type: vendingMachineInventory
   id: SecDrobeInventory
   startingInventory:
+    #Void Sector start
+    ClothingNeckPonchoSec: 2
+    ClothingUniformCorporateUniform: 4
+    ClothingOuterSecTacjacket: 4
+    ClothingBalaclavaMask: 4
+    ClothingEyesGogglesSecurityTacticool: 4
+    ClothingEyesSwatGlasses: 4
+    ClothingHeadHelmetLight: 4
+    TacticalBackpack: 4
+    RadioBackPack: 1
+    ClothingJackBootsCross: 4
+    ClothingFlashSuit: 1
+    ClothingHeadFlash: 1
+    #VoidSector end
     ClothingBackpackSecurity: 3
     ClothingBackpackSatchelSecurity: 3
     ClothingBackpackDuffelSecurity: 3
@@ -42,6 +56,7 @@
     ADTClothingShoesJackbootsCowboyWhite: 1
     ADTClothingShoesJackbootsCowboyFancy: 1
     #ADT Clothing end
+
   contrabandInventory:
     ClothingMaskClownSecurity: 1
     ClothingMaskMimeSecurity: 1

@@ -1,0 +1,138 @@
+- type: entity
+  name: белый гусь
+  parent: SimpleMobBase
+  id: MobGooseWhite
+  description: Я гусь и я докалебусь!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: goose
+      sprite: Void/Mobs/Animals/goosewhite.rsi
+  - type: Appearance
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 25
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: goose
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatDuck
+      amount: 2
+  - type: InteractionPopup
+    successChance: 0.1
+    interactSuccessString: petting-success-goose
+    interactFailureString: petting-failure-goose
+    interactSuccessSound:
+      path: /Audio/Void/Animals/goose_honk2.ogg
+  - type: Bloodstream
+    bloodMaxVolume: 100
+  - type: Puller
+    needsHands: false
+  - type: Vocal
+    sounds:
+      Male: Goose
+      Female: Goose
+      Unsexed: Goose
+    screamId: GooseHonk
+    screamAction: GooseHonk
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: BarestepHard
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: белый гусь
+    description: >
+      Бесите экипаж, воруйте вещи, станьте злом этой станции!
+      Но будте осторожны, и не выбесите экипаж слишком сильно, вы не бессмертны.
+  - type: GhostTakeoverAvailable
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+
+- type: entity
+  id: MobCatStanislav
+  name: Станислав
+  suffix: Адмем
+  parent: MobCatFloppa
+  description: Это не военное преступление, если тебе весело!
+  components:
+  - type: Sprite
+    sprite: Mobs/Pets/caracal.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: stanislav
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: stanislav
+      Dead:
+        Base: stanislav_dead
+  - type: Gun
+    fireRate: 5
+    useKey: false
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifle
+    capacity: 30
+  - type: CombatMode
+  - type: HTN
+    rootTask:
+      task: StanislavCompound
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+
+- type: entity
+  id: MobMothroachSalavage
+  parent: MobMothroach
+  name: таракамоль утилизатор
+  description: Пока остальной отдел поставок пилит бюджет, она ворует ваши трусы!
+  components:
+  - type: Sprite
+    sprite: Void/Mobs/Animals/spacemothroach.rsi
+  - type: Clothing
+    sprite: Void/Mobs/Animals/spacemothroach.rsi
+  - type: Temperature
+    heatDamageThreshold: 423
+    coldDamageThreshold: 0
+  - type: Tag
+    tags:
+      - DoorBumpOpener
+  - type: MovementAlwaysTouching
+  - type: PressureImmunity
+  - type: ProtectedFromStepTriggers
+  - type: Insulated
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-spacemothroach-name
+    description: ghost-role-information-spacemothroach-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
+    prob: 0.2
+  - type: Respirator
+    minSaturation: 5.0

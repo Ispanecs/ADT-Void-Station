@@ -1,0 +1,92 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBlackDress
+  name: чёрные туфли
+  description: Вечерный шик.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/blackdressshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/blackdressshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesRedDress
+  name: красные туфли
+  description: Вечерный шик.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/redshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/redshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesRichDress
+  name: дорогие туфли
+  description: Вы этом вы чувствуете себя богаче.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/richshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/richshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesStarDress
+  name: звёздные туфли
+  description: Они сияют!
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/starshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/starshoes.rsi
+    clothingVisuals:
+      shoes:
+      - state: equipped-FEET
+      - state: equipped-FEET_unsh
+        shader: unshaded
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsSilkDress
+  name: шёлковые туфли
+  description: Украшенные жемчугом туфли
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/silkdressshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/silkdressshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsPinkDress
+  name: розовые туфли
+  description: Украшены милыми бантиками
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/pinkdressshoes.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/pinkdressshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesFootwrapsBlack
+  name: тёмные обмотки для ног
+  description:
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/footwraps_black.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/footwraps_black.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesFootwrapsWhite
+  name: обмотки для ног
+  description:
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/Misc/footwraps_white.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/Misc/footwraps_white.rsi

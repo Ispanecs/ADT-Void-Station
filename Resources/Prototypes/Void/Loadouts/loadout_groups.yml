@@ -1,0 +1,17 @@
+# Centcom
+- type: loadoutGroup
+  id: BlueshieldBackpack
+  name: loadout-group-blueshield-backpack
+  loadouts:
+  - BlueshieldBackpack
+  - BlueshieldSatchel
+  - BlueshieldDuffel
+
+# Security
+- type: loadoutGroup
+  id: BrigmedicBackpack
+  name: loadout-group-brigmedic-backpack
+  loadouts:
+  - BrigmedicBackpack
+  - BrigmedicSatchel
+  - BrigmedicDuffel

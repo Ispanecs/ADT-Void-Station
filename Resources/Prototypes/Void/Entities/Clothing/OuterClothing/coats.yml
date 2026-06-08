@@ -1,0 +1,104 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingBlackCoatDragon
+  name: чёрное пальто из драконьей кожи
+  description: Ни один дракон не пострадал в процессе производства такой роскоши, что не скажешь об остальных.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/black_coat.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/black_coat.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingBlackJacket
+  name: чёрная куртка
+  description: Стильно, модно, молодежно.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/black_jacket.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/black_jacket.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingBlackJacketSkull
+  name: чёрная куртка с черепом
+  description: Для крутых перцев.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/black_jacket_skull.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/black_jacket_skull.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterCoatBomberBlack
+  name: чёрная куртка-бомбер
+  description: Толстая, поношенная кожаная куртка-бомбер периода Второй мировой войны.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/blackbomber.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/blackbomber.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterClothingAtmos
+  name: атмосферный бомбер
+  description: Крепкая кожаная куртка снабжённая системой инженерных датчиков. Помогает при работе в команде.
+  suffix: VoidPersonal
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/bomber_atmos.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/bomber_atmos.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterDecker
+  name: куртка декера
+  description: Стильная куртка декера для прогулок в городах, которые никогда не спят.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/decker_coat.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/decker_coat.rsi
+
+# СБ апдейт
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterSecTacjacket
+  name: корпоративная куртка службы безопасности
+  description: Официальная куртка сотрудника службы безопасности НаноТрейзен. Строгий дизайн и высокое качество материалов.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/OuterClothing/Coats/tacjacket.rsi
+  - type: Clothing
+    slots: [ outerClothing ]
+    sprite: Void/Clothing/OuterClothing/Coats/tacjacket.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,2
+    maxItemSize: Medium
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.9

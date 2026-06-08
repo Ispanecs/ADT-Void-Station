@@ -1,0 +1,112 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseCommandContraband]
+  id: ClothingEyesGlassesBlueShield
+  name: очки офицера синего щита
+  description: Модные очки отдающие синевой.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseCentcommContraband]
+  id: ClothingEyesGlassesCentcom
+  name: очки офицера центрального командования
+  suffix: VCC
+  description: Пара очков стоящая как пара твоих почек.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/centcomglasses.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/centcomglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesOrange
+  name: оранжевые очки
+  description: Пара стильных оранжевых очков. В них всё кажется медленным.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Glasses/orangewind.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Glasses/orangewind.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseRestrictedContraband]
+  id: ClothingEyesGogglesSecurityTacticool
+  name: тактические очки охраны
+  description: "Это просто термальные очки, но с охранным интерфе?-.. -НЕТ, ЭТО ТАКТИЧЕСКИЕ ОЧКИ ОХРАНЫ!"
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/tacticoolsec.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/tacticoolsec.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Construction
+    graph: GlassesSecHUD
+    node: glassesSec
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
+  parent: [ClothingEyesBase, BaseRestrictedContraband]
+  id: ClothingEyesSwatGlasses
+  name: очки спецназа
+  description: Очки носимые спецназом. Не имеют всяких девчачих украшений вроде встроенного интерфейса охраны. 
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/swatglasses.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/swatglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Construction
+    graph: GlassesSecHUD
+    node: glassesSec
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesJohan
+  name: йоханистические очки
+  description: Очки истинного члена Йохании!
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Eyes/Glasses/johan.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Eyes/Glasses/johan.rsi
+  - type: AddAccentClothing
+    accent: ReplacementAccent
+    replacement: johan
+  - type: Tag
+    tags:
+    - WhitelistChameleon

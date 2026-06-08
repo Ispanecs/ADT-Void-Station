@@ -2,7 +2,7 @@
   id: ADT_Marathon
   mapName: 'Marathon Station'
   mapPath: /Maps/ADTMaps/ADTStations/adt_marathon.yml
-  minPlayers: 35
+  minPlayers: 10
   maxPlayers: 60
   stations:
     ADT_Marathon:
@@ -14,7 +14,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '-'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/ADTMaps/Shuttles/adt_emergency.yml
+          emergencyShuttlePath: /Maps/Shuttles/emergency_omega.yml
         - type: StationCargoShuttle
           path: /Maps/ADTMaps/Shuttles/adt_cargo.yml
         - type: StationJobs

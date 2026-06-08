@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "id_overlay"
+    },
+    {
+      "name": "equipped-BELT",
+      "directions": 4
+    },
+    {
+      "name": "equipped-IDCARD",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "insert_overlay"
+    },
+    {
+      "name": "light_overlay"
+    },
+    {
+      "name": "pda-captain"
+    },
+    {
+      "name": "pda-ce"
+    },
+    {
+      "name": "pda-centcom"
+    },
+    {
+      "name": "pda-cmo"
+    },
+    {
+      "name": "pda-ert"
+    },
+    {
+      "name": "pda-hop"
+    },
+    {
+      "name": "pda-hos"
+    },
+    {
+      "name": "pda-hydro"
+    },
+    {
+      "name": "pda-internservice"
+    },
+    {
+      "name": "pda-medicalpsy"
+    },
+    {
+      "name": "pda-qm"
+    },
+    {
+      "name": "pda-rd"
+    },
+    {
+      "name": "pda-cargo"
+    },
+    {
+      "name": "pda-cburn"
+    },
+    {
+      "name": "pda-storekeeper"
+    },
+    {
+        "name": "pda-iaa"
+    },
+    {
+        "name": "pda-magistrate"
+    }
+  ]
+}

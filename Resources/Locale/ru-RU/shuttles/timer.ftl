@@ -8,4 +8,4 @@ shuttle-timer-source-map = КартИстчнк
 shuttle-timer-dest-map = КартПриб
 shuttle-timer-docked = Стыковано
 shuttle-timer-bye = Пока!
-shuttle-timer-kill = УБЕЙ
+shuttle-timer-kill = ВОЙДА

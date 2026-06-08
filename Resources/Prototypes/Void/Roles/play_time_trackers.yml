@@ -1,0 +1,13 @@
+#Конфликт с ВП
+#- type: playTimeTracker
+#  id: JobBrigmedic
+
+#Конфликт с ВП
+#- type: playTimeTracker
+#  id: JobIAA
+
+- type: playTimeTracker
+  id: JobMagistrate
+
+- type: playTimeTracker
+  id: JobBlueShieldOfficer

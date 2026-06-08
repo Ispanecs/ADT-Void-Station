@@ -1,0 +1,88 @@
+################################################################################
+##### General ##################################################################
+
+[net]
+port = 1214
+bindto = "0.0.0.0"
+log_late_msg = false
+
+[database]
+engine = "sqlite"
+sqlite_dbpath = "build.sqlite"
+
+[game]
+desc = "VoidSector Build"
+hostname = "Пустотная Стройка"
+soft_max_players = 60
+lobbyenabled = false
+defaultpreset = "Sandbox"
+fallbackpreset = "Sandbox"
+map = "Empty"
+role_timers = false
+contraband_examine = false
+
+[gateway]
+generator_enabled = false
+
+[hub]
+advertise = false
+
+[server]
+rules_file = "BuildRuleset"
+
+[console]
+login_host_user = "Ispanecss"
+
+[admin]
+see_own_notes = true
+note_fresh_days = 0
+message_wait_time = 1
+afk_time = 0.0
+admins_count_in_playercount = true
+
+[interaction]
+rate_limit_announce_admins_delay = -1
+
+[physics]
+grid_splitting = false
+
+[procgen]
+preload = false
+
+[shuttle]
+grid_fill = false
+auto_call_time = 0
+emergency = false
+arrivals = false
+preload_grids = false
+mass_limit = 6500
+
+################################################################################
+##### In Game ##################################################################
+
+[atmos]
+space_wind = false
+
+[biomass]
+easy_mode = false
+
+[control]
+storage_limit = 10
+
+[vote]
+timermap = 30
+
+[rules]
+time = 0.0
+
+[tips]
+enabled = false
+
+[ooc]
+enable_during_round = true
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+rich_main_icon_id = "voidsector"

@@ -1,0 +1,33 @@
+#Конфликт с ВП
+#- type: trait
+#  id: Tall
+#  name: Высокий
+#  description: Вы созданы, чтобы пронзить небеса!
+#  category: Size
+#  cost: 1
+#  whitelist:
+#    components:
+#      - SizeAttributeWhitelist
+#  blacklist:
+#    components:
+#      - SizeAttribute
+#  components:
+#    - type: SizeAttribute
+#      tall: true
+
+#Конфликт с ВП
+#- type: trait
+#  id: Short
+#  name: Низкий
+#  description: Вай, занижен как приора.
+#  category: Size
+#  cost: 1
+#  whitelist:
+#    components:
+#      - SizeAttributeWhitelist
+#  blacklist:
+#    components:
+#      - SizeAttribute
+#  components:
+#    - type: SizeAttribute
+#      short: true

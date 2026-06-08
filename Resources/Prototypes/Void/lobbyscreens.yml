@@ -1,0 +1,111 @@
+﻿- type: lobbyBackground
+  id: Warden
+  background: /Textures/Void/LobbyScreens/warden.webp
+
+- type: lobbyBackground
+  id: Pharmacy
+  background: /Textures/Void/LobbyScreens/pharmacy.webp
+
+- type: lobbyBackground
+  id: Susstation
+  background: /Textures/Void/LobbyScreens/susstation.webp
+
+- type: lobbyBackground
+  id: SkellyVsTheRev
+  background: /Textures/Void/LobbyScreens/skellyvstherev.webp
+
+- type: lobbyBackground
+  id: Doomed
+  background: /Textures/Void/LobbyScreens/doomed.webp
+
+- type: lobbyBackground
+  id: Blueprint
+  background: /Textures/Void/LobbyScreens/blueprint.webp
+
+- type: lobbyBackground
+  id: Wallpaper-1
+  background: /Textures/Void/LobbyScreens/wallpaper-1.png
+
+- type: lobbyBackground
+  id: Wallpaper-2
+  background: /Textures/Void/LobbyScreens/wallpaper-2.png
+
+- type: lobbyBackground
+  id: Wallpaper-3
+  background: /Textures/Void/LobbyScreens/wallpaper-3.png
+
+- type: lobbyBackground
+  id: Wallpaper-4
+  background: /Textures/Void/LobbyScreens/wallpaper-4.png
+
+- type: lobbyBackground
+  id: Wallpaper-5
+  background: /Textures/Void/LobbyScreens/wallpaper-5.png
+
+- type: lobbyBackground
+  id: Wallpaper-6
+  background: /Textures/Void/LobbyScreens/wallpaper-6.png
+
+- type: lobbyBackground
+  id: Wallpaper-7
+  background: /Textures/Void/LobbyScreens/wallpaper-7.png
+
+- type: lobbyBackground
+  id: Wallpaper-8
+  background: /Textures/Void/LobbyScreens/wallpaper-8.png
+
+- type: lobbyBackground
+  id: Wallpaper-9
+  background: /Textures/Void/LobbyScreens/wallpaper-9.png
+
+- type: lobbyBackground
+  id: BSA
+  background: /Textures/Void/LobbyScreens/BSA.png
+
+- type: lobbyBackground
+  id: TerminalStation
+  background: /Textures/Void/LobbyScreens/terminalstation.webp
+
+- type: lobbyBackground
+  id: LinkoSalvage
+  background: /Textures/Void/LobbyScreens/LinkoSalvage.png
+
+- type: lobbyBackground
+  id: JustAWeekAway
+  background: /Textures/Void/LobbyScreens/justaweekaway.webp
+
+- type: lobbyBackground
+  id: JaniShootout
+  background: /Textures/Void/LobbyScreens/janishootout.webp
+
+- type: lobbyBackground
+  id: ReclaimerNuke
+  background: /Textures/Void/LobbyScreens/reclaimer-nuke.webp
+
+- type: lobbyBackground
+  id: RobusTyanka
+  background: /Textures/Void/LobbyScreens/RobusTyanka.png
+
+- type: lobbyBackground
+  id: Syndicate
+  background: /Textures/Void/LobbyScreens/syndicte.png
+
+- type: lobbyBackground
+  id: Medbay
+  background: /Textures/Void/LobbyScreens/medbay.png
+
+- type: lobbyBackground
+  id: ScanerScreen
+  background: /Textures/Void/LobbyScreens/ScanerScreen.png
+
+- type: lobbyBackground
+  id: AnomalyScanner
+  background: /Textures/Void/LobbyScreens/AnomalyScaner.png
+
+- type: lobbyBackground
+  id: Bacteria
+  background: /Textures/Void/LobbyScreens/Bacteria.png
+
+- type: lobbyBackground
+  id: VoidaWillBeSoon
+  background: /Textures/Void/LobbyScreens/voidawillbesoon.png

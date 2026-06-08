@@ -1,0 +1,152 @@
+### Оставил файл чисто по приколу, его можно и удалить,
+### т.к. мехи будут использоваться с СД
+
+#Ошибка. Вероятно фиксится добавлением position
+# - type: technology
+#   id: SalvageMech
+#   name: Кларк АТМЕ
+#   icon:
+#     sprite: Objects/Specific/Mech/clarke_construction.rsi
+#     state: clarke18
+#   discipline: Industrial
+#   tier: 2
+#   cost: 15000
+#   recipeUnlocks:
+#   - ClarkePeripheralsElectronics
+#   - ClarkeCentralElectronics
+#   - ClarkeHarness
+#   - ClarkeLArm
+#   - ClarkeRArm
+#   - ClarkeLLeg
+#   - ClarkeRLeg
+#   - MechEquipmentDrill
+#   - MechEquipmentProtokinet
+#   - MechEquipmentDiamondDrill
+#   technologyPrerequisites:
+#   - RipleyAPLU
+
+#Ошибка. Вероятно фиксится добавлением position
+# - type: technology
+#   id: RipleyMKIIMech
+#   name: Укрепление конструкции
+#   icon:
+#     sprite: Objects/Specific/Mech/mecha.rsi
+#     state: ripleymkii-open
+#   discipline: Industrial
+#   tier: 2
+#   cost: 15000
+#   recipeUnlocks:
+#   - RipleyMKiiPeripheralsElectronics
+#   - RipleyMKiiCentralElectronics
+#   - RipleyMKiiHarness
+#   technologyPrerequisites:
+#   - RipleyAPLU
+
+#Ошибка. Вероятно фиксится добавлением position
+# - type: technology
+#   id: FirefighterMech
+#   name: Укрепленные композиты
+#   icon:
+#     sprite: Objects/Specific/Mech/mecha.rsi
+#     state: firefighter-open
+#   discipline: Industrial
+#   tier: 2
+#   cost: 20000
+#   recipeUnlocks:
+#   - FireFighterPeripheralsElectronics
+#   - FireFighterCentralElectronics
+#   - FireFighterHarness
+#   technologyPrerequisites:
+#   - RipleyAPLU
+
+#Ошибка. Вероятно фиксится добавлением position
+# - type: technology
+#   id: HaulerMech
+#   name: Улучшенные сервоприводы
+#   icon:
+#     sprite: Objects/Specific/Mech/mecha.rsi
+#     state: hauler-open
+#   discipline: Industrial
+#   tier: 2
+#   cost: 20000
+#   recipeUnlocks:
+#   - HaulerPeripheralsElectronics
+#   - HaulerCentralElectronics
+#   - HaulerHarness
+#   technologyPrerequisites:
+#   - RipleyAPLU
+
+#Ошибка. Вероятно фиксится добавлением position
+# - type: technology
+#   id: OdysseusMech
+#   name: Облегчение конструкции
+#   icon:
+#     sprite: Objects/Specific/Mech/odysseus_construction.rsi
+#     state: odysseus18
+#   discipline: Biochemical
+#   tier: 2
+#   cost: 15000
+#   recipeUnlocks:
+#   - OdysseusPeripheralsElectronics
+#   - OdysseusCentralElectronics
+#   - OdysseusHarness
+#   - OdysseusLArm
+#   - OdysseusRArm
+#   - OdysseusLLeg
+#   - OdysseusRLeg
+#   - MechEquipmentMedGunBlue
+#   - MechEquipmentMedGunYellow
+#   - MechEquipmentMedGunGreen
+
+#Угадайте? Ошибка. Угадайте чем фиксится? Вероятно фиксится добавлением position
+# - type: technology
+#   id: MeleeMechWeapon
+#   name: Бой на короткой дистанции
+#   icon:
+#     sprite: /Textures/Void/Objects/Specific/Mech/mechamelee_weapon.rsi
+#     state: mech-sword
+#   discipline: Arsenal
+#   tier: 2
+#   cost: 10000
+#   recipeUnlocks:
+#   - MechSword
+#   - MechSpear
+#   technologyPrerequisites:
+#   - ModernCombatMechs
+
+#Ошибка. Вероятно фиксится добавлением position
+# - type: technology
+#   id: ModernWarGun
+#   name: Модернизация боевых средств
+#   icon:
+#     sprite: Objects/Specific/Mech/mecha_equipment.rsi
+#     state: mecha_pulse
+#   discipline: Arsenal
+#   tier: 3
+#   cost: 30000
+#   recipeUnlocks:
+#   - MechMissileWeaponSGL
+#   - MechMissileWeaponSRM
+#   - MechMLG
+#   - MechLaserWeaponImpuls
+#   - MechMissileWeaponShotGun
+#   - MechMissileWeaponFSRM
+#   technologyPrerequisites:
+#   - ModernCombatMechs
+
+#Ошибка. Вероятно фиксится добавлением position
+# - type: technology
+#   id: ModernReactor
+#   name: Модернизация миниатюрных средств питания
+#   icon:
+#     sprite: Objects/Specific/Mech/mecha_equipment.rsi
+#     state: uranium
+#   discipline: Industrial
+#   tier: 3
+#   cost: 30000
+#   recipeUnlocks:
+#   - MechReactorPlasma
+#   - MechReactorUranium
+#   - MechReactorTesla
+#   technologyPrerequisites:
+#   - PortableFission

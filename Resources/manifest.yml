@@ -1,6 +1,6 @@
-windowIconSet: /Textures/ADT/Logo/icon-adt # Corvax-Theme
-defaultWindowTitle: Space Station 14 - Время Приключений # ADT theme
-splashLogo: /Textures/ADT/Logo/adt_logo.png #ADT theme
+defaultWindowTitle: Void Sector
+windowIconSet: /Textures/Void/Logo/icon # Void theme
+splashLogo: /Textures/Void/Logo/logo.png #Void theme
 multiWindow: true
 
 # PJB PLEASE

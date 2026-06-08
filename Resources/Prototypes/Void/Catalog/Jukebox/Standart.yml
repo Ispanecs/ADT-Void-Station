@@ -1,0 +1,496 @@
+# Void Sector Start
+# Музыка должна быть в формате .ogg и иметь канал mono
+- type: jukebox
+  id: A.M.T.V.
+  name: КиШ - A.M.T.V.
+  path:
+    path: /Audio/Void/Jukebox/A.M.T.V.ogg
+
+- type: jukebox
+  id: Dagon
+  name: КиШ - Дагон
+  path:
+    path: /Audio/Void/Jukebox/Dagon.ogg
+
+- type: jukebox
+  id: Rickroll
+  name: Рик Эстли - Never Gonna Give You Up
+  path:
+    path: /Audio/Void/Jukebox/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg
+
+- type: jukebox
+  id: PitNelzya
+  name: Аквариум - Все говорят, что пить нельзя
+  path:
+    path: /Audio/Void/Jukebox/Vse_govoryat_chto_pit_nelizya.ogg
+
+- type: jukebox
+  id: Kak_na_vojjne
+  name: Агата Кристи - Как на войне
+  path:
+    path: /Audio/Void/Jukebox/Agata_Kristi_-_Kak_na_vojjne.ogg
+
+- type: jukebox
+  id: ecstatic-vibrations-totally-transcendent
+  name: Sea Power - Ecstatic Vibrations, Totally Transcendent
+  path:
+    path: /Audio/Void/Jukebox/british-sea-power-ecstatic-vibrations-totally-transcendent.ogg
+
+- type: jukebox
+  id: Electric_Light_Orchestra
+  name: Electric Light Orchestra - Mr Blue Sky
+  path:
+    path: /Audio/Void/Jukebox/Electric_Light_Orchestra_-_Mr_Blue_Sky.ogg
+
+- type: jukebox
+  id: I_Dont_Want_To_Set_The_World_On_Fire_Tribute
+  name: Fallout - I Don't Want To Set The World On Fire
+  path:
+    path: /Audio/Void/Jukebox/Fallout_-_I_Dont_Want_To_Set_The_World_On_Fire_Tribute.ogg
+
+- type: jukebox
+  id: My_Way
+  name: Frank Sinatra - My Way
+  path:
+    path: /Audio/Void/Jukebox/Frank_Sinatra_-_My_Way.ogg
+
+- type: jukebox
+  id: Mjortvye
+  name: Гражданская оборона - Мёртвые
+  path:
+    path: /Audio/Void/Jukebox/Grazhdanskaya_oborona_-_Mjortvye.ogg
+
+- type: jukebox
+  id: Gryaz
+  name: Ария - Грязь
+  path:
+    path: /Audio/Void/Jukebox/Gryaz - Arya.ogg
+
+- type: jukebox
+  id: Wrong_Number
+  name: Hotline Miami 2 - Wrong Number
+  path:
+    path: /Audio/Void/Jukebox/Hotline_Miami_2_Wrong_Number.ogg
+
+- type: jukebox
+  id: Techno_Madness
+  name: Jesse Allen - Techno Madness
+  path:
+    path: /Audio/Void/Jukebox/Jesse_Allen_-_Techno_Madness.ogg
+
+- type: jukebox
+  id: Kapital
+  name: Ляпис Трубецкой - Капитал
+  path:
+    path: /Audio/Void/Jukebox/Lyapis_Trubeckojj_-_Kapital.ogg
+
+- type: jukebox
+  id: Oda_K_radosti
+  name: Людвиг ван Бетховен - Ода к радости
+  path:
+    path: /Audio/Void/Jukebox/Lyudvig_van_Betkhoven_-_Oda_K_radosti.ogg
+
+- type: jukebox
+  id: Awakening
+  name: Space Rangers 2 - Awakening
+  path:
+    path: /Audio/Void/Jukebox/OST_Space_Rangers_2_-_Awakening.ogg
+
+- type: jukebox
+  id: Chrome_Shamans
+  name: P.T.Adamczyk - Chrome Shamans
+  path:
+    path: /Audio/Void/Jukebox/P.T._Adamczyk_-_Chrome_Shamans.ogg
+
+- type: jukebox
+  id: Pink-Floyd-Money
+  name: Pink Floyd - Money
+  path:
+    path: /Audio/Void/Jukebox/Pink-Floyd-Money.ogg
+
+- type: jukebox
+  id: Robots_Outro
+  name: PPK - Robots Outro
+  path:
+    path: /Audio/Void/Jukebox/PPK_-_Robots_Outro.ogg
+
+- type: jukebox
+  id: Dont_Stop_Me_Now
+  name: Queen - Don't Stop Me Now
+  path:
+    path: /Audio/Void/Jukebox/Queen_-_Dont_Stop_Me_Now.ogg
+
+- type: jukebox
+  id: Stuck_In_The_Middle_With_You
+  name: Stealers Wheel - Stuck In The Middle With You
+  path:
+    path: /Audio/Void/Jukebox/Stealers_Wheel_-_Stuck_In_The_Middle_With_You.ogg
+
+- type: jukebox
+  id: Paint_It_Black
+  name: The Rolling Stones - Paint It Black
+  path:
+    path: /Audio/Void/Jukebox/The_Rolling_Stones_-_Paint_It_Black.ogg
+
+- type: jukebox
+  id: Disbelief_Papyrus
+  name: Undertale - Disbelief Papyrus
+  path:
+    path: /Audio/Void/Jukebox/Undertale_-_Disbelief_Papyrus_Phase_1.ogg
+
+- type: jukebox
+  id: Trava_u_doma
+  name: Земляне - Трава у дома
+  path:
+    path: /Audio/Void/Jukebox/Zemlyane_-_Trava_u_doma.ogg
+
+- type: jukebox
+  id: Shag_V_Temnotu
+  name: Пламенев - Шаг в темноту
+  path:
+    path: /Audio/Void/Jukebox/Shag_V_Temnotu.ogg
+
+- type: jukebox
+  id: Hammers_Call
+  name: Naktigonis - Hammers Call
+  path:
+    path: /Audio/Void/Jukebox/Hammers_Call.ogg
+
+- type: jukebox
+  id: Mind_Games
+  name: Mind Games
+  path:
+    path: /Audio/Void/Jukebox/Mind_Games.ogg
+
+- type: jukebox
+  id: Human
+  name: Rag'n'Bone Man - Human
+  path:
+    path: /Audio/Void/Jukebox/Human.ogg
+
+- type: jukebox
+  id: Intro
+  name: Alt-J - Intro
+  path:
+    path: /Audio/Void/Jukebox/Intro.ogg
+
+- type: jukebox
+  id: Its_Been_A_While
+  name: STAIND - It's been a while
+  path:
+    path: /Audio/Void/Jukebox/Its_Been_A_While.ogg
+
+- type: jukebox
+  id: 8PM
+  name: 8PM
+  path:
+    path: /Audio/Void/Jukebox/8PM.ogg
+
+- type: jukebox
+  id: 12PM
+  name: 12PM
+  path:
+    path: /Audio/Void/Jukebox/12PM.ogg
+
+- type: jukebox
+  id: Disco_Panzer
+  name: Alan Aztek - Disco Panzer
+  path:
+    path: /Audio/Void/Jukebox/Disco_Panzer.ogg
+
+- type: jukebox
+  id: Ghost
+  name: Marvin Brooks - Ghost
+  path:
+    path: /Audio/Void/Jukebox/Ghost.ogg
+
+- type: jukebox
+  id: Everything
+  name: Mick Gordon - Everything Will Be Ok
+  path:
+    path: /Audio/Void/Jukebox/Everything_Will_Be_Ok.ogg
+
+- type: jukebox
+  id: Radioactive
+  name: Imagine Dragons - Radioactive
+  path:
+    path: /Audio/Void/Jukebox/Radioactive.ogg
+
+- type: jukebox
+  id: Good Life
+  name: Shayfer James - Good Life
+  path:
+    path: /Audio/Void/Jukebox/Good_Life.ogg
+
+- type: jukebox
+  id: Smooth_Criminal
+  name: Michael Jackson - Smooth Criminal
+  path:
+    path: /Audio/Void/Jukebox/Smooth_Criminal.ogg
+
+- type: jukebox
+  id: Another_Bites_The_Dust
+  name: Queen - Another One Bites The Dust
+  path:
+    path: /Audio/Void/Jukebox/Another_Bites_The_Dust.ogg
+
+- type: jukebox
+  id: Out_Of_The_Black
+  name: Royal Blood - Out Of The Black
+  path:
+    path: /Audio/Void/Jukebox/Out_Of_The_Black.ogg
+
+- type: jukebox
+  id: Chernikovska_hata
+  name: Черниковская хата - Спектакль окончен
+  path:
+    path: /Audio/Void/Jukebox/Chernikovska_hata.ogg
+
+- type: jukebox
+  id: Moi_Marmelad
+  name: Катя Лель - Мой мармелад
+  path:
+    path: /Audio/Void/Jukebox/Moi_Marmelad.ogg
+
+- type: jukebox
+  id: Photograf.ogg
+  name: Электрофорез - Фотограф
+  path:
+    path: /Audio/Void/Jukebox/Photograf.ogg
+
+- type: jukebox
+  id: Relove_Relax
+  name: Wantaways - Relove Relax
+  path:
+    path: /Audio/Void/Jukebox/Relove_Relax.ogg
+
+- type: jukebox
+  id: Slim_Shady
+  name: Eminem - Slim_Shady
+  path:
+    path: /Audio/Void/Jukebox/Slim_Shady.ogg
+
+- type: jukebox
+  id: Take_Me_To_Church
+  name: Hozier - Take Me To Church
+  path:
+    path: /Audio/Void/Jukebox/Take_Me_To_Church.ogg
+
+- type: jukebox
+  id: The_Cat_Empire
+  name: The Cat Empire - The Lost Song ("Кухня")
+  path:
+    path: /Audio/Void/Jukebox/The_Cat_Empire.ogg
+
+- type: jukebox
+  id: Way_Down_We_Go
+  name: Kaleo - Way Down We Go
+  path:
+    path: /Audio/Void/Jukebox/Way_Down_We_Go.ogg
+
+- type: jukebox
+  id: Emotion_Engine
+  name: Dazegxd - Emotion Engine
+  path:
+    path: /Audio/Void/Jukebox/Emotion_Engine.ogg
+
+- type: jukebox
+  id: JEto_tak_arkhaichno
+  name: Где Фантом? - Это так архаично
+  path:
+    path: /Audio/Void/Jukebox/Gde_antom_-_JEto_tak_arkhaichno.ogg
+
+- type: jukebox
+  id: SHvajjne
+  name: Глюк'oZa - Швайне
+  path:
+    path: /Audio/Void/Jukebox/GlyukoZa_-_SHvajjne.ogg
+
+- type: jukebox
+  id: Dedushka
+  name: Каникулы На Марсе - Дедушка
+  path:
+    path: /Audio/Void/Jukebox/Kanikuly_na_Marse_-_Dedushka.ogg
+
+- type: jukebox
+  id: Milfkhanter
+  name: Neverlove - Милфхантер
+  path:
+    path: /Audio/Void/Jukebox/Neverlove_-_Milfkhanter.ogg
+
+- type: jukebox
+  id: Radio
+  name: Rammstein - Radio
+  path:
+    path: /Audio/Void/Jukebox/Rammstein_-_RADIO.ogg
+
+- type: jukebox
+  id: Pokerface
+  name: Eric Cartman - Pokerface ft. Lady Gaga
+  path:
+    path: /Audio/Void/Jukebox/South_park_JErik_Kartman_feat_Lady_Gaga_-_Poker_Face.ogg
+
+- type: jukebox
+  id: Toxicity
+  name: System of a Down - Toxicity
+  path:
+    path: /Audio/Void/Jukebox/System_of_a_Down_-_Toxicity.ogg
+
+- type: jukebox
+  id: Ya_byu_zhenshhin_i_detejj
+  name: Валентин Стрыкало - Я бью женщин и детей
+  path:
+    path: /Audio/Void/Jukebox/Valentin_Strykalo_-_YA_byu_zhenshhin_i_detejj.ogg
+
+- type: jukebox
+  id: Chippin_in
+  name: Damian Ukeje - Chippin in
+  path:
+    path: /Audio/Void/Jukebox/Damian Ukeje - Chippin in.ogg
+
+- type: jukebox
+  id: Money_For_Nothing
+  name: Dire Straits - Money For Nothing
+  path:
+    path: /Audio/Void/Jukebox/Dire Straits - Money For Nothing.ogg
+
+- type: jukebox
+  id: Invisible_Big_Boss
+  name: Duran Duran - Invisible
+  path:
+    path: /Audio/Void/Jukebox/Duran duran - Invisible.ogg
+
+- type: jukebox
+  id: Bigger_man
+  name: Konrad OldMoney - Bigger man
+  path:
+    path: /Audio/Void/Jukebox/Konrad OldMoney - Bigger man.ogg
+
+- type: jukebox
+  id: Hello_good_morning
+  name: Konrad OldMoney - Hello good morning
+  path:
+    path: /Audio/Void/Jukebox/Konrad OldMoney - Hello good morning.ogg
+
+- type: jukebox
+  id: Problem_kids
+  name: Konrad OldMoney - Problem kids
+  path:
+    path: /Audio/Void/Jukebox/Konrad OldMoney - Problem kids.ogg
+
+- type: jukebox
+  id: Where_Do_You_Get_Off
+  name: White Knuckle Jerk - Where Do You Get Off
+  path:
+    path: /Audio/Void/Jukebox/White Knuckle Jerk - Where Do You Get Off.ogg
+
+# Добавил немного от себя
+# :D
+- type: jukebox
+  id: Bubble_Pop_Electric
+  name: Gwen Stefani, Johnny Vulture - Bubble Pop Electric
+  path:
+    path: /Audio/Void/Jukebox/Bubble Pop Electric.ogg
+
+- type: jukebox
+  id: Thats_What_I_Like
+  name: Bruno Mars - That's What I Like
+  path:
+    path: /Audio/Void/Jukebox/That's What I Like.ogg
+
+- type: jukebox
+  id: Everybody_Talks
+  name: Neon Trees - Everybody Talks
+  path:
+    path: /Audio/Void/Jukebox/Everybody Talks.ogg
+
+# :)
+- type: jukebox
+  id: Them_Changes
+  name: Thundercat - Them Changes
+  path:
+    path: /Audio/Void/Jukebox/Them Changes.ogg
+
+- type: jukebox
+  id: Supersonic_Rocket_Ship
+  name: The Kinks - Supersonic Rocket Ship
+  path:
+    path: /Audio/Void/Jukebox/Supersonic Rocket Ship.ogg
+
+- type: jukebox
+  id: Golden_Age
+  name: Chris Staples - Golden Age
+  path:
+    path: /Audio/Void/Jukebox/Golden Age.ogg
+
+# Music to blow the shit out of the station 
+- type: jukebox
+  id: The_Thieving_Magpie
+  name: Джоаккино Россини - Сорока-воровка
+  path:
+    path: /Audio/Void/Jukebox/The Thieving Magpie.ogg
+
+- type: jukebox
+  id: Woke_Up_This_Morning
+  name: Alabama 3 - Woke Up This Morning ("Клан Сопрано")
+  path:
+    path: /Audio/Void/Jukebox/Woke Up This Morning.ogg
+
+- type: jukebox
+  id: Uncle_Junior
+  name: John Sparkz, Jim Jones, Harry Fraud, Action Bronson - Uncle Junior
+  path:
+    path: /Audio/Void/Jukebox/Uncle Junior.ogg
+
+- type: jukebox
+  id: Mountain
+  name: Andrew Strong - Ain't No Mountain High Enough ("Кухня")
+  path:
+    path: /Audio/Void/Jukebox/Ain't No Mountain High Enough.ogg
+
+- type: jukebox
+  id: Bo_Mambo
+  name: Yma Sumac - Bo Mambo ("Кухня")
+  path:
+    path: /Audio/Void/Jukebox/Bo Mambo.ogg
+
+- type: jukebox
+  id: Gopher_Mambo
+  name: Yma Sumac  - Gopher Mambo ("Кухня")
+  path:
+    path: /Audio/Void/Jukebox/Gopher Mambo.ogg
+
+- type: jukebox
+  id: Hernando
+  name: Billy May  - Hernando's Hideaway ("Кухня")
+  path:
+    path: /Audio/Void/Jukebox/Hernando's Hideaway.ogg
+
+- type: jukebox
+  id: Spooky
+  name: Dusty Springfield  - Spooky
+  path:
+    path: /Audio/Void/Jukebox/Spooky.ogg
+
+# :|
+- type: jukebox
+  id: Black_Hole_Sun
+  name: Soundgarden - Black Hole Sun
+  path:
+    path: /Audio/Void/Jukebox/Black Hole Sun.ogg
+
+- type: jukebox
+  id: Angel
+  name: Massive Attack, Horace Andy - Angel
+  path:
+    path: /Audio/Void/Jukebox/Angel.ogg
+
+# :(
+- type: jukebox
+  id: Her
+  name: The American Dawn - Her
+  path:
+    path: /Audio/Void/Jukebox/Her.ogg
+
+
+# Void Sector end

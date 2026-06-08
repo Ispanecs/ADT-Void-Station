@@ -1,0 +1,49 @@
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackBlueshield
+  name: рюкзак офицера синего щита
+  description: Говорят он пуленепробиваемый.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Backpacks/blueshield.rsi
+
+#ERT
+- type: entity
+  parent: ClothingBackpack
+  id: TraumaBackPack
+  name: Ранец "Траумы"
+  description: Рюкзак повышенной ёмкости, имеет многочисленные боковые и внутренние крепления для разного оборудования и снаряжения. Хорошо изолирован.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Backpacks/trauma.rsi
+  - type: Storage
+    grid:
+    - 0,0,10,5
+
+# СБ Апдейт
+- type: entity
+  parent: [ClothingBackpack, BaseSecurityContraband,]
+  id: TacticalBackpack
+  name: тактический рюкзак
+  description: Легкий рюкзак без лишних деталей.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Backpacks/tacpack.rsi
+  - type: Storage
+    grid:
+    - 0,0,6,3
+
+- type: entity
+  parent: [ClothingBackpack, BaseSecurityContraband,]
+  id: RadioBackPack
+  name: тяжелый рюкзак
+  description: Рюкзак СБ расчитанный на большое количество различной экипировки и оборудования. Даже пустым он весит на удивление много.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Back/Backpacks/radiopack.rsi
+  - type: Storage
+    grid:
+    - 0,0,8,5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.8

@@ -54,7 +54,7 @@ namespace Content.Client.Lobby.UI
 
             if (_cfg.GetCVar(ADTCCVars.ExtraLobbyPanelEnabled))
             {
-                LobbyPanelLeftTop.Visible = true;
+                LobbyPanelLeftTop.Visible = false;
                 _panelUpdate = true;
                 UpdateButtons();
             }
@@ -136,11 +136,11 @@ namespace Content.Client.Lobby.UI
             {
                 UpdateSponsorButtonColor(false, null);
             }
-            SponsorInfoButton.Visible = true;
+            SponsorInfoButton.Visible = false;
 
             // Проверяем статус Discord
             UpdateDiscordLinkButtonColor(_discordIdManager?.TryGetDiscordId(out _));
-            DiscordLinkButton.Visible = true;
+            DiscordLinkButton.Visible = false;
         }
 
         public void UpdateSponsorButtonColor(bool hasSponsor, int? sponsorTier)

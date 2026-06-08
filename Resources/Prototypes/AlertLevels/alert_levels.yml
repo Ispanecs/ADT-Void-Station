@@ -17,7 +17,7 @@
       shuttleTime: 600
     violet:
       announcement: alert-level-violet-announcement
-      sound: /Audio/Misc/notice1.ogg
+      sound: /Audio/Void/Misc/Alerts/violet.ogg # Void Sector tweak
       color: Violet
       emergencyLightColor: Violet
       forceEnableEmergencyLights: true
@@ -31,7 +31,7 @@
       shuttleTime: 600
     red:
       announcement: alert-level-red-announcement
-      sound: /Audio/ADT/Announcements/Alert/red.ogg # ADT Tweaked
+      sound: /Audio/Misc/redalert.ogg # Void Sector tweak
       color: Red
       emergencyLightColor: Red
       forceEnableEmergencyLights: true
@@ -40,7 +40,7 @@
       announcement: alert-level-gamma-announcement
       selectable: false
       sound:
-        path: /Audio/ADT/Announcements/Alert/gamma_alert.ogg # ADT Tweaked
+        path: /Audio/Misc/gamma.ogg # Void Sector tweak
         params:
           volume: -2
       disableSelection: true
@@ -51,7 +51,7 @@
       announcement: alert-level-delta-announcement
       selectable: false
       sound:
-        path: /Audio/ADT/Announcements/Alert/delta.ogg # ADT Tweaked
+        path: /Audio/Misc/delta.ogg # Void Sector tweak
         params:
           volume: -1 # ADT-Tweak
       disableSelection: true
@@ -63,7 +63,7 @@
       announcement: alert-level-epsilon-announcement
       selectable: false
       sound:
-        path: /Audio/Misc/epsilon.ogg
+        path: /Audio/Misc/epsilon.ogg # Void Sector tweak
         params:
           volume: -2
       disableSelection: true

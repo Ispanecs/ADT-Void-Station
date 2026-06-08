@@ -23,6 +23,23 @@
     ADTClothingUnderwearSocksCentcom: 2 #ADT-Tweak
     ADTClothingUnderwearSocksKneeCentcom: 2 #ADT-Tweak
     ADTClothingUnderwearSocksThighCentcom: 2 #ADT-Tweak
+#Void Sector
+    ClothingNeckCloakCentCom: 3
+    CapDispatchCentCom: 1
+    CapOperatorCentCom: 1
+    CapIntendantCentCom: 1
+    CapOKOCentCom: 1
+    JumpSuitDispatchCentCom: 1
+    JumpSuitOperatorCentCom: 1
+    JumpSuitIntendantCentCom: 1
+    JumpSuitOKOCentCom: 1
+    JumpSuitOKOCentComWhite: 1
+    ClothingNeckDispatchCentCom: 1
+    ClothingNeckOperatorCentCom: 1
+    ClothingNeckIntendantCentCom: 1
+    ClothingNeckWhiteCentCom: 1
+    ClothingEyesGlassesCentcom: 3
+
   contrabandInventory:
     ToyFigurineCaptain: 1
     ToyFigurineHeadOfPersonnel: 1

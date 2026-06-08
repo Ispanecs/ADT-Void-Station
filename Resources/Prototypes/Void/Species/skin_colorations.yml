@@ -1,0 +1,6 @@
+- type: skinColoration
+  id: KatunianToned
+  strategy: !type:ClampedHsvColoration
+    hue: [0.0, 0.1]
+    saturation: [0.0, 0.1]
+    value: [0.60, 0.85]

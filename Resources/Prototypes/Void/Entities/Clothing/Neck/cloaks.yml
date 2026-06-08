@@ -1,0 +1,77 @@
+- type: entity
+  parent: [ClothingNeckBase, BaseCentcommContraband]
+  id: ClothingNeckCloakCentCom
+  name: фирменный плащ Центкома
+  suffix: VCC
+  description: Дорогой плащ, который вам не по карману
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/Cloaks/centcomcloakformal.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakCowboyPoncho
+  name: пончо
+  description: Пока еще дырки от пуль на нем не появлялись
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/Cloaks/poncho.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckDispatchCentCom
+  suffix: VCC
+  name: плащ диспетчера
+  description: Плащ, который обычно носят диспетчеры Центрального Командования.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_dispatch.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckOperatorCentCom
+  suffix: VCC
+  name: плащ оператора
+  description: Плащ оператора Центрального Командования. На внутренней части воротника имеется прикольный миниатюрный микрофон который можно подключить к гарнитуре.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_operator.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckWhiteCentCom
+  suffix: VCC
+  name: белый плащ Центком
+  description: Белый плащ Центрального Командования, их на самом деле много кто носит. Но обычно если те кто, действительно, должен их носить, вас в нём увидят - исход будет печальным.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_white.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  suffix: VCC
+  id: ClothingNeckIntendantCentCom
+  name: плащ интенданта
+  description: Плащ носимый интендантом Центкома, на внутренней стороне всё ещё находится бирка с большим количеством нулей, вы даже не можете назвать итоговое число.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/centcomm_custom_cloak_intendant.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingDeckerHeadset
+  name: наушники декера
+  description: Стильные наушники декера, самое то для синтвейва.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/decker_headset.rsi
+
+# СБ Апдейт
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckPonchoSec
+  name: пончо службы безопасности
+  description: Удобное и размашистое пончо которое отлично подходит для эффектных появлений.
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Neck/ponchoSec.rsi

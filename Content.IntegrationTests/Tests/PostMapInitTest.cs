@@ -48,7 +48,7 @@ namespace Content.IntegrationTests.Tests
 
         private static readonly string[] Grids =
         {
-            "/Maps/centcomm.yml",
+           "/Maps/centcomm.yml",
             AdminTestArenaSystem.ArenaMapPath
         };
 
@@ -154,6 +154,7 @@ namespace Content.IntegrationTests.Tests
             "ADT_Silly",
             "ADT_Train"
             // ADT-End
+        //    "VoidCentComm"
         };
 
         private static readonly ProtoId<EntityCategoryPrototype> DoNotMapCategory = "DoNotMap";

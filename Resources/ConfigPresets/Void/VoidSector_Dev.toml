@@ -1,0 +1,101 @@
+################################################################################
+##### General ##################################################################
+
+[net]
+port = 1213
+bindto = "0.0.0.0"
+log_late_msg = false
+
+[database]
+engine = "sqlite"
+sqlite_dbpath = "database.sqlite"
+
+[game]
+hostname = "Пустотный Полигон"
+desc = "VoidSector Test 1"
+soft_max_players = 60
+lobbyduration = 180
+defaultpreset = "Sandbox"
+fallbackpreset = "Extended"
+map_pool = "VoidMapPool"
+contraband_examine = false
+
+[hub]
+advertise = false
+
+[server]
+rules_file = "VoidRuleset"
+lobby_name = "Пустотный Полигон"
+lobby_right_panel_width = 520
+
+[console]
+login_host_user = "Ispanecss"
+
+[admin]
+see_own_notes = true
+note_fresh_days = 0
+message_wait_time = 1
+new_player_threshold = 180
+afk_time = 180.0
+admins_count_in_playercount = true
+
+[infolinks]
+discord = "https://discord.gg/Tc5RNEWVWS"
+
+################################################################################
+##### In Game ##################################################################
+
+[atmos]
+space_wind = true
+monstermos_rip_tiles = true
+mmos_spacing_speed = 0.95
+mmos_max_wind = 1000.0
+
+[biomass]
+easy_mode = false
+
+[control]
+storage_limit = 2
+
+[whitelist]
+enabled = true
+prototype_list = "voidSectorWhitelist"
+
+[vote]
+timermap = 30
+
+[shuttle]
+arrivals_planet = false
+arrivals_returns = true
+emergency_early_launch_allowed = true
+emergency_dock_time = 300.0
+emergency_authorize_time = 15.0
+recall_turning_point = 0.1
+auto_call_time = 120
+auto_call_extension_time = 60
+arrivals_map = "Maps_Void/Misc/terminal.yml"
+mass_limit = 6500
+
+[rules]
+time = 0.0
+
+[tips]
+enabled = false
+
+[ooc]
+enable_during_round = true
+
+[looc]
+enabled_crit = true
+
+[chat]
+max_announcement_length = 1024
+
+[ic]
+flavor_text = true
+
+################################################################################
+##### Discord ##################################################################
+
+[discord]
+rich_main_icon_id = "voidsector"

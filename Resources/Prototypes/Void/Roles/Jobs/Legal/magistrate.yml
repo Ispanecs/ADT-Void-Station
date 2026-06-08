@@ -1,0 +1,50 @@
+# Не знаю че у них с ним, замена на ВПшного пока отменяется. Заменил некоторое с Magistrate -> Magistrat
+
+# - type: job
+#   id: Magistrate
+#   name: job-name-magistrat
+#   description: job-description-magistrat
+#   playTimeTracker: JobMagistrate    # всяко разно пока не используется, будет два трекера для магистрата :troll:
+#   requirements:
+#     - !type:RoleTimeRequirement
+#       role: JobIAA
+#       time: 21600 #6 hrs
+#     - !type:OverallPlaytimeRequirement
+#       time: 72000 # 20 hrs
+#     - !type:AgeRequirement
+#       requiredAge: 30
+#   startingGear: MagistratGear
+#   icon: "JobIconMagistrat"
+#   supervisors: job-supervisors-centcom
+#   canBeAntag: false
+#   access:
+#   - Command
+#   - Brig
+#   - Maintenance
+#   - Service
+#   - Security
+#   - Magistrate
+#   - Lawyer
+#   - IAA
+#   special:
+#   - !type:AddImplantSpecial
+#     implants: [ MindShieldImplant ]
+
+# - type: startingGear
+#   id: MagistrateGear
+#   equipment:
+#     shoes: ClothingShoesBootsLaceup
+#     eyes: ClothingEyesGlassesSunglasses
+#     id: MagistratPDA
+#     ears: ClothingHeadsetMagistrat
+#     pocket2: RubberStampMagisrat    # "magisrat" :sob:
+#     # TODO add copy of space law
+#   inhand:
+#     - BriefcaseBrownFilled
+#   storage:
+#     back:
+#     - BoxSurvival
+#     - Flash
+#     - WeaponDisabler
+#     - Zipties
+#     - ADTtelescopicBaton

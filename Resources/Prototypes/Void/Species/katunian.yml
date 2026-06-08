@@ -1,0 +1,146 @@
+- type: species
+  id: Katunian
+  name: Катунианец
+  roundStart: true
+  prototype: MobKatunian
+  sprites: MobKatunianSprites
+  markingLimits: MobKatunianMarkingLimits
+  dollPrototype: MobKatunianDummy
+  skinColoration: KatunianToned
+  #ADT добавочка
+  shortDesc: коты I guess
+  category: Special
+  #description: "/ServerInfo/Void/..."
+  pros:
+  - Здесь будут плюсы
+  special:
+  - Здесь будут особенности
+  cons:
+  - Здесь будут минусы
+  defaultLanguages:
+  - GalacticCommon
+  # uniqueLanguages:
+  # - VoxPidgin
+  minAge: 20
+  maxAge: 100
+  oldAge: 46
+  youngAge: 31
+  #Конец ADT добавочки
+
+- type: speciesBaseSprites
+  id: MobKatunianSprites
+  sprites:
+    Head: MobKatunianHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Chest: MobKatunianTorso
+    Eyes: MobHumanoidEyes
+    LArm: MobKatunianLArm
+    RArm: MobKatunianRArm
+    LHand: MobKatunianLHand
+    RHand: MobKatunianRHand
+    LLeg: MobKatunianLLeg
+    RLeg: MobKatunianRLeg
+    LFoot: MobKatunianLFoot
+    RFoot: MobKatunianRFoot
+
+- type: markingPoints
+  id: MobKatunianMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Legs:
+      points: 4
+      required: false
+    Arms:
+      points: 4
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobKatunianHead
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobKatunianHeadMale
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobKatunianHeadFemale
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobKatunianTorso
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobKatunianTorsoMale
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobKatunianTorsoFemale
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobKatunianLLeg
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobKatunianLHand
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobKatunianLArm
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobKatunianLFoot
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobKatunianRLeg
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobKatunianRHand
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobKatunianRArm
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobKatunianRFoot
+  baseSprite:
+    sprite: Void/Mobs/Species/Katunian/parts.rsi
+    state: r_foot

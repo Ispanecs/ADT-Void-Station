@@ -62,6 +62,22 @@
     ClothingUniformJumpskirtCasualRed: 2
     ClothingUniformJumpsuitCasualGreen: 2
     ClothingUniformJumpskirtCasualGreen: 2
+    #Void Sector clothing start
+    ClothingUniformShirtJeansBrown: 2
+    ClothingUniformShirtJeansDark: 2
+    ClothingUniformShirtJeansDarkPurple: 2
+    ClothingUniformShirtJeansIce: 2
+    ClothingUniformShirtJeansMint: 2
+    ClothingUniformShirtJeansWhite: 2
+    ClothingUniformShirtBlue: 2
+    ClothingUniformShirtDark: 2
+    ClothingUniformShirtGreen: 2
+    ClothingUniformShirtOrange: 2
+    ClothingUniformShirtPurple: 2
+    ClothingUniformShirtRed: 2
+    ClothingUniformShirtWhite: 2
+    ClothingUniformShirtYellow: 2
+    #Void Sector clothing end
     #ADT-Tweak-Turtleneck-Start
     ADTClothingUniformJumpsuitTurtleneckBlackSleeveless: 1
     ADTClothingUniformJumpskirtTurtleneckBlackSleeveless: 1

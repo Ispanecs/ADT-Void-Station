@@ -1,42 +1,30 @@
-<div class="header" align="center">
-<img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg">
-</div>
+<h1 align="center"><a href="https://github.com/Makotys/void-station-14">GitHub</a></h1>
 
-# Adventure Time: Space Station 14
+<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" /></p>
 
 Space Station 14 это ремейк SS13, который работает на собственном движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
-Adventure Time - это проект русскоязычного сервера по Space Station 14, целью которого является полный перевод игры на русский язык, поддержка актуальных изменений из основного репозитория, а так же добавление собственных изменений по необходимости.
+Это репозиторий русскоязычной версии Space Station 14 / Adventure Time сервера Void Sector.
+
+Если Вам нужно захостить русскоязычный сервер для SS14, этот репозиторий это то что Вам нужно. Если Вы хотите делать нововведения для основной версии игры, перейдите в [репозиторий официальной версии игры](https://github.com/space-wizards/space-station-14).
 
 ## Ссылки
-[Наш Discord](https://discord.gg/NY3KDNuH9r) | [Наша вики](https://wiki.adventurestation.space/Заглавная_страница) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14)
 
-[Наш Discord](https://discord.station14.ru) | [Наша Вики](https://wiki.station14.ru) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14)
+[Сайт игры](https://spacestation14.io/) | [VoidSector Discord](https://discord.gg/Tc5RNEWVWS) | [Steam игры](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Скачать лаунчер](https://spacestation14.io/about/nightlies/) | [Репозиторий Space Wizards](https://github.com/space-wizards/space-station-14) | [Репозиторий Adventure Time](https://github.com/AdventureTimeSS14/space_station_ADT)
 
 ## Документация
 
 На официальном сайте с [документацией](https://docs.spacestation14.io/) имеется вся необходимая информация о контенте SS14, движке, дизайне игры и многом другом. Также имеется много информации для начинающих разработчиков.
 
 ## Контрибьют
+Мы приветствуем взносы от любого желающего. Присоединяйтесь к нашему Discord, если хотите помочь. У нас есть список [задач](https://github.com/Ispanecs/ADT-Void-Station/issues), которые нужно решить. Не стесняйтесь просить о помощи!
+Просто убедитесь, что ваши изменения и запросы на принятие изменений соответствуют [руководству по участию](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html), код соответствует [соглашению о коде](https://github.com/Makotys/void-station-14/blob/master/CODE_CONVENTIONAL.MD), а коммит соответствует [соглашению о коммитах](https://github.com/Makotys/void-station-14/blob/master/COMMIT_CONVENTIONAL.MD).
 
-Мы рады принять вклад от любого человека. Заходите в Discord, если хотите помочь. У нас есть [список проблем](https://github.com/space-syndicate/space-station-14-content/issues), которые нужно решить, и любой может за них взяться. Не бойтесь просить о помощи!
-Только убедитесь, что ваши изменения и PRы соответствуют [руководству по контрибьюту](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
+## Самостоятельная сборка
 
-## Сборка
-1. Клонируйте этот репозиторий локально.
-2. Запустите RUN_THIS.py для инициализации подмодулей и загрузки движка.
-3. Скомпилируйте проект с помощью команды dotnet build. 
+1. Склонируйте этот репозиторий.
+2. Запустите скрипт `RUN_THIS.py` для инициализации субмодулей и скачивания движка.
+3. Соберите решение через Visual Studio или dotnet в терминале.
 
-1. Склонируйте этот репозиторий локально
-2. Запустите `RUN_THIS.py` для инициализации подмодулей и скачивания движка.
-3. Скомпилируйте проект.
+[Более детальная инструкция для сборки.](https://di9.ru/docs/ss14/)
 
-[Более подробная инструкция по запуску проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
-
-## Лицензия
-
-Большинство ресурсов лицензированы по [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. У ресурсов есть собственная лицензия и информация об авторском праве в метаданных файла. [Пример](https://github.com/AdventureTimeSS14/space_station_ADT/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
-
-Большинство ассетов лицензированы под [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. Ассеты имеют свою лицензию и авторские права в файле метаданных. [Пример](https://github.com/space-syndicate/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
-
-Обратите внимание, что некоторые ассеты лицензированы на некоммерческой основе [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичной некоммерческой лицензией, и их необходимо удалить, если вы хотите использовать этот проект в коммерческих целях.

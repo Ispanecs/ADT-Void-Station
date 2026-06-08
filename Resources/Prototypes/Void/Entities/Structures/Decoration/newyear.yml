@@ -1,0 +1,155 @@
+- type: entity
+  parent: BaseSignDirectional
+  id: SignIvyString
+  name: рождественская лоза
+  description: Красивая рождественская лоза, пахнет лесом.
+  components:
+  - type: Sprite
+    state: ivystring
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: XmasRing
+  name: рождественский венок
+  description: Рождественский венок.
+  components:
+  - type: Sprite
+    state: xmasring
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: GarlandDecorChristmas
+  name: гирлянда
+  description: Проверьте, не перегорела ли лампочка. Если засмотритесь слишком долго, то лампы начнут смотреть в ответ.
+  components:
+  - type: Sprite
+    state: garland
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor1
+  name: рождественская мишура
+  description: Рождественская мишура. Пахнет взрывом.
+  components:
+  - type: Sprite
+    state: tinsel_RND
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor2
+  name: рождественская мишура
+  description: Рождественская мишура.
+  components:
+  - type: Sprite
+    state: tinsel_WHT
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor3
+  name: рождественская мишура
+  description: Рождественская мишура. Пахнет щиткуром.
+  components:
+  - type: Sprite
+    state: tinsel_RED
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor4
+  name: рождественская мишура
+  description: Рождественская мишура. Пахнет лекарствами.
+  components:
+  - type: Sprite
+    state: tinsel_MED
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor5
+  name: рождественская мишура
+  description: Рождественская мишура.
+  components:
+  - type: Sprite
+    state: tinsel_GRN
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: Tinseldecor6
+  name: рождественская мишура
+  description: Рождественская мишура.
+  components:
+  - type: Sprite
+    state: tinsel_YLW
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  parent: BaseSignDirectional
+  id: SnowflakeDecor
+  name: снежинки
+  description: Снежинки!
+  components:
+  - type: Sprite
+    state: snowflake
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+
+- type: entity
+  id: Snowman
+  parent: BaseStructureDynamic
+  name: снеговик
+  description: Точно не пластиковый.
+  components:
+  - type: Sprite
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+    state: snowman
+    noRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 200
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionOutline
+  - type: Physics
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetPlastic:
+            min: 5
+            max: 5
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: Snowman
+  id: SnowmanHat
+  components:
+  - type: Sprite
+    sprite: Void/Structures/Decoration/Christmasdeco.rsi
+    state: snowman_hat

@@ -1,0 +1,86 @@
+- type: entity
+  name: Vector-7S
+  parent: BaseWeaponSubMachineGun
+  id: WeaponSubMachineGunVector-7S
+  suffix: Вектор навсегда
+  description: Улучшенная и модифицированная версия некогда списанного со счетов Вектора. Оборудован улучшеной системой подачи патронов и умным прицелом. Умные патроны в комплект не идут.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/SMGs/vectorseven.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Guns/SMGs/vectorseven.rsi
+  - type: Gun
+    fireRate: 12
+    selectedMode: FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+    availableModes:
+    - FullAuto
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnumSubMachineGun
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnumSubMachineGun
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: M90 #<-- Засунуть в техфаб СБ/ Добавить в технологию оружия СБ/ Всё и сразу. Цена 500 стали и 100 серебра
+  parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
+  id: WeaponSubMachineGunM90
+  description: Скорострельный пистолет-пулемет, разработанный и спроектированный в лучших стандартах ТСФ, теперь в издании от НаноТрейзен. Имеет механизм автоматического сброса магазина.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Weapons/Guns/SMGs/m90.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Void/Objects/Weapons/Guns/SMGs/m90.rsi
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -5
+    maxAngle: -10
+  - type: Gun
+    fireRate: 12
+    minAngle: 21
+    maxAngle: 35
+    shotsPerBurst: 5
+    availableModes:
+    - Burst
+    - FullAuto
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: true
+  - type: Appearance

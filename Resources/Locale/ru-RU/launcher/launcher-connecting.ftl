@@ -1,6 +1,6 @@
 ### Connecting dialog when you start up the game
 
-connecting-title = Adventure Time Station
+connecting-title = Void Sector
 connecting-exit = Выйти
 connecting-retry = Повторить
 connecting-reconnect = Переподключиться
