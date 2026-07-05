@@ -206,6 +206,7 @@
       groups:
       - MasterLevel
 
+# Центком
 - type: entity
   parent: IDCardVoid
   id: CentcomFleetTrooperIDCard
@@ -457,3 +458,83 @@
     - AllAccess
     tags:
     - CentralCommand
+
+# СССП
+# Бур
+- type: entity
+  parent: IDCardStandard
+  id: USSPSteersmanCard
+  name: удостоверение Штурмана
+  description: Трудовая книжка СССП.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      sprite: ADT/Objects/Misc/USSP_idcard.rsi
+      state: private
+    - type: PresetIdCard
+      job: JobUSSPSteersman
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPCommanderCard
+  name: удостоверение Командира
+  description: Трудовая книжка СССП.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      sprite: ADT/Objects/Misc/USSP_idcard.rsi
+      state: private
+    - type: PresetIdCard
+      job: JobUSSPCommander
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPAcousticianCard
+  name: удостоверение Акустика
+  description: Трудовая книжка СССП.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      sprite: ADT/Objects/Misc/USSP_idcard.rsi
+      state: private
+    - type: PresetIdCard
+      job: JobUSSPAcoustic
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPElectricianCard
+  name: удостоверение Электромеханика
+  description: Трудовая книжка СССП.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      sprite: ADT/Objects/Misc/USSP_idcard.rsi
+      state: private
+    - type: PresetIdCard
+      job: JobUSSPElectrician
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPCookCard
+  name: удостоверение Кука
+  description: Трудовая книжка СССП.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      sprite: ADT/Objects/Misc/USSP_idcard.rsi
+      state: private
+    - type: PresetIdCard
+      job: JobUSSPCook
+
+- type: entity
+  parent: IDCardStandard
+  id: USSPMotorMechanic
+  name: удостоверение Моториста
+  description: Трудовая книжка СССП.
+  suffix: Ивент
+  components:
+    - type: Sprite
+      sprite: ADT/Objects/Misc/USSP_idcard.rsi
+      state: private
+    - type: PresetIdCard
+      job: JobUSSPMechanic

@@ -10,3 +10,29 @@
 #      stampedBy:
 #      - stampedName: stamp-component-stamped-name-centcom
 #        stampedColor: "#bb3232"
+
+- type: entity
+  name: стенографический отчёт
+  parent: Paper
+  id: TranscriptReportPaper
+  description: 'Самый страшный носитель извещений о штрафах.'
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper_receipt
+    - state: paper_receipt_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      visible: false
+    - state: paper_stamp-generic
+      map: ["enum.PaperVisualLayers.Stamp"]
+      visible: false
+  - type: PaperVisuals
+    backgroundImagePath: "/Textures/Void/Interface/Paper/paper_background_transcript.svg.96dpi.png"
+    headerImagePath: "/Textures/Void/Interface/Paper/transcript.svg.96dpi.png"
+    headerMargin: 0.0, 0.0, 0.0, 6.0
+    backgroundImageTile: true
+    backgroundPatchMargin: 0.0, 6.0, 0.0, 6.0
+    contentMargin: 12.0, 0.0, 12.0, 0.0
+    # Широкая бумажка
+    maxWritableArea: 0.0, 150.0

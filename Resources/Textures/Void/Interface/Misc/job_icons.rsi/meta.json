@@ -16,6 +16,21 @@
     },
     {
         "name": "Blueshield"
+    },
+    {
+        "name": "USSPSteersman"
+    },
+    {
+        "name": "USSPMechanic"
+    },
+    {
+        "name": "USSPElectrician"
+    },
+    {
+        "name": "USSPCook"
+    },
+    {
+        "name": "USSPAcoustic"
     }
   ]
 }
