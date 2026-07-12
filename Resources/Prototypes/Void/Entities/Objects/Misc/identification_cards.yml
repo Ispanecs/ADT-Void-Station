@@ -516,7 +516,7 @@
 - type: entity
   parent: IDCardStandard
   id: USSPCookCard
-  name: удостоверение Кука
+  name: удостоверение Кока
   description: Трудовая книжка СССП.
   suffix: Ивент
   components:
@@ -528,8 +528,8 @@
 
 - type: entity
   parent: IDCardStandard
-  id: USSPMotorMechanic
-  name: удостоверение Моториста
+  id: USSPGeologist
+  name: удостоверение Геолога
   description: Трудовая книжка СССП.
   suffix: Ивент
   components:
@@ -537,4 +537,4 @@
       sprite: ADT/Objects/Misc/USSP_idcard.rsi
       state: private
     - type: PresetIdCard
-      job: JobUSSPMechanic
+      job: JobUSSPGeologist

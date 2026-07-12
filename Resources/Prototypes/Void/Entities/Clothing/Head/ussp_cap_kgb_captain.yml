@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: CapUSSPKGBCaptain
+  name: фуражка капитана КГБ
+  description: Фуражка для капитана КГБ.
+  suffix: USSP, VS
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/ussp_cap_kgb_captain.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/ussp_cap_kgb_captain.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

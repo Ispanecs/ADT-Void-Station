@@ -66,8 +66,8 @@
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconUSSPMechanic
+  id: JobIconUSSPGeologist
   icon:
     sprite: /Textures/Void/Interface/Misc/job_icons.rsi
-    state: USSPMechanic
-  jobName: Моторист
+    state: USSPGeologist
+  jobName: Геолог

@@ -8,6 +8,7 @@
   supervisors: job-supervisors-ussp-centcom
   access:
   - Maintenance
+  - Engineering
   - External
   canBeAntag: false
 
@@ -19,9 +20,10 @@
   setPreference: false
   icon: "JobIconADTUSSPArmyOfficer"
   supervisors: job-supervisors-ussp-centcom
-  access:
+  accessGroups:
   - Maintenance
   - External
+  - ADTAccessCaptain # Поменять при переносе на другие сборки, очевидно
   canBeAntag: false
 
 - type: job
@@ -33,8 +35,8 @@
   icon: "JobIconUSSPAcoustic"
   supervisors: job-supervisors-ussp-centcom
   access:
+  - Cargo
   - Maintenance
-  - External
   canBeAntag: false
 
 - type: job
@@ -47,6 +49,7 @@
   supervisors: job-supervisors-ussp-centcom
   access:
   - Maintenance
+  - Engineering
   - External
   canBeAntag: false
 
@@ -59,19 +62,20 @@
   icon: "JobIconUSSPCook"
   supervisors: job-supervisors-ussp-centcom
   access:
+  - Service
   - Maintenance
-  - External
+  - Kitchen
   canBeAntag: false
 
 - type: job
-  id: JobUSSPMechanic
-  name: Моторист
-  description: Контролируйте работу двигателя!
-  playTimeTracker: JobUSSPMechanic # Заглушка
+  id: JobUSSPGeologist
+  name: Геолог
+  description: Изучайте горную породу!
+  playTimeTracker: JobUSSPGeologist # Заглушка
   setPreference: false
-  icon: "JobIconUSSPMechanic"
+  icon: "JobIconUSSPGeologist"
   supervisors: job-supervisors-ussp-centcom
   access:
+  - Research
   - Maintenance
-  - External
   canBeAntag: false
