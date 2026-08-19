@@ -23,7 +23,7 @@
     containers:
       storagebase: !type:AllSelector
         children:
-        - id: BlueshieldBatton
+        - id: BlueshieldBaton
 
 - type: entity
   id: BaseWeaponBlueshieldSupport
