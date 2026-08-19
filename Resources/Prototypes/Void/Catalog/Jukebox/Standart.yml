@@ -1,4 +1,3 @@
-# Void Sector Start
 # Музыка должна быть в формате .ogg и иметь канал mono
 - type: jukebox
   id: A.M.T.V.
@@ -266,7 +265,7 @@
 
 - type: jukebox
   id: Slim_Shady
-  name: Eminem - Slim_Shady
+  name: Eminem - Slim Shady
   path:
     path: /Audio/Void/Jukebox/Slim_Shady.ogg
 
@@ -492,5 +491,168 @@
   path:
     path: /Audio/Void/Jukebox/Her.ogg
 
+# Новая музыка, 19.08.2026
+- type: jukebox
+  id: AllOfTheLights
+  name: Kanye West - All Of The Lights
+  path:
+    path: /Audio/Void/Jukebox/All Of The Lights.ogg
 
-# Void Sector end
+- type: jukebox
+  id: BeforeEveryLoad
+  name: Mike Klubnika - Before Every Load ("Buckshot Roulette")
+  path:
+    path: /Audio/Void/Jukebox/Before Every Load.ogg
+
+- type: jukebox
+  id: CheapSuits
+  name: Mekaloton - Cheap Suits
+  path:
+    path: /Audio/Void/Jukebox/Cheap Suits.ogg
+
+- type: jukebox
+  id: Chicago
+  name: Michael Jackson - Chicago
+  path:
+    path: /Audio/Void/Jukebox/Chicago - Michael Jackson.ogg
+
+- type: jukebox
+  id: BeLikeAWoman
+  name: Chris Rainbow - Be Like a Woman
+  path:
+    path: /Audio/Void/Jukebox/Chris Rainbow - Be Like a Woman.ogg
+
+- type: jukebox
+  id: ClipBoss
+  name: Konrad OldMoney - Clip Boss
+  path:
+    path: /Audio/Void/Jukebox/Clip Boss.ogg
+
+- type: jukebox
+  id: NoSavePoint
+  name: Cyberpunk 2077 - No Save Point
+  path:
+    path: /Audio/Void/Jukebox/Cyberpunk 2077 No Save Point.ogg
+
+- type: jukebox
+  id: REAKTION
+  name: Cyberpunk 2077 - Reaktion
+  path:
+    path: /Audio/Void/Jukebox/CYBERPUNK 2077 REAKTION.ogg
+
+- type: jukebox
+  id: MajorCrimes
+  name: Cyberpunk 2077 - Major Crimes
+  path:
+    path: /Audio/Void/Jukebox/CYBERPUNK 2077 MAJOR CRIMES.ogg
+
+- type: jukebox
+  id: Firewall
+  name: Les Friction - Firewall
+  path:
+    path: /Audio/Void/Jukebox/Firewall-Les-Friction.ogg
+
+- type: jukebox
+  id: Money
+  name: MysterySkulls - Money
+  path:
+    path: /Audio/Void/Jukebox/Money-Mystery-Skulls.ogg
+
+- type: jukebox
+  id: Hellbent
+  name: MysterySkulls - Hellbent
+  path:
+    path: /Audio/Void/Jukebox/Mystery-Skulls-Hellbent.ogg
+
+- type: jukebox
+  id: Assumptions
+  name: Sam Gellaitry - Assumptions
+  path:
+    path: /Audio/Void/Jukebox/Sam-Gellaitry-Assumptions.ogg
+
+- type: jukebox
+  id: SlaveToTheRythm
+  name: Michael Jackson - Slave To The Rythm
+  path:
+    path: /Audio/Void/Jukebox/Slave-to-the-Rhythm-Michael-Jackson.ogg
+
+- type: jukebox
+  id: TheFuture
+  name: Mystery Skulls - The Future
+  path:
+    path: /Audio/Void/Jukebox/The-Future-Mystery-Skulls.ogg
+
+# ????????????
+- type: jukebox
+  id: TheRealKrisShady
+  name: The Real Kris Shady
+  path:
+    path: /Audio/Void/Jukebox/The-Real-Kris-Shady.ogg 
+
+- type: jukebox
+  id: FullConfession
+  name: LudoWic - Full Confession
+  path:
+    path: /Audio/Void/Jukebox/Full Confession - LudoWic.ogg 
+
+# Ещё треки, та же дата 
+- type: jukebox
+  id: VirtualInsanity
+  name: Jamiroquai - Virtual Insanity
+  path:
+    path: /Audio/Void/Jukebox/Jamiroquai - Virtual Insanity.ogg 
+
+- type: jukebox
+  id: LovelyDay
+  name: Bill Withers - Lovely Day
+  path:
+    path: /Audio/Void/Jukebox/Bill Withers - Lovely Day.ogg 
+
+- type: jukebox
+  id: EverybodyLovesTheSunshine
+  name: Roy Ayers Ubiquity - Everybody Loves The Sunshine
+  path:
+    path: /Audio/Void/Jukebox/Everybody Loves The Sunshine - Roy Ayers Ubiquity (1976).ogg 
+
+- type: jukebox
+  id: IGotThe
+  name: Labi Siffre - I Got The...
+  path:
+    path: /Audio/Void/Jukebox/Labi Siffre - I Got The... (1975).ogg 
+
+- type: jukebox
+  id: FunkySoul
+  name: James Brown - People Get Up And Drive Your Funky Soul
+  path:
+    path: /Audio/Void/Jukebox/People Get Up And Drive Your Funky Soul (Remix).ogg 
+
+- type: jukebox
+  id: TheWorldWeKnew
+  name: Frank Sinatra - The World We Knew
+  path:
+    path: /Audio/Void/Jukebox/The World We Knew.ogg 
+
+# On some gangsta shit fr
+- type: jukebox
+  id: CaliforniaLove
+  name: 2Pac - California Love
+  path:
+    path: /Audio/Void/Jukebox/California Love.ogg 
+
+- type: jukebox
+  id: DeepCover
+  name: Snoop Dogg & Dr.Dre - Deep Cover
+  path:
+    path: /Audio/Void/Jukebox/Deep Cover.ogg 
+
+- type: jukebox
+  id: MyNameIs
+  name: Eminem - My Name Is
+  path:
+    path: /Audio/Void/Jukebox/My Name Is.ogg 
+
+- type: jukebox
+  id: ExpressYourself
+  name: N.W.A. - Express Yourself
+  path:
+    path: /Audio/Void/Jukebox/Express Yourself.ogg 
