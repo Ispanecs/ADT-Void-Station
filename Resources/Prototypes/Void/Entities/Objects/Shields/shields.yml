@@ -1,6 +1,6 @@
 ﻿- type: entity
   name: энергощит синего щита
-  parent: [BaseItem, BaseSyndicateContraband]
+  parent: [BaseItem, BaseSecurityContraband]
   id: BSOEnergyShield
   description: Экзотический энергетический щит, в сложенном состоянии может поместиться даже в карман. Данный щит изготовлен специально для Офицера Синего Щита.
   suffix: ОСЩ
