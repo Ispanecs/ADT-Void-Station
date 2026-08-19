@@ -7,3 +7,34 @@
     state: base
   content:
   - ADTBaseWeaponCaseNTBS
+
+# Void Sector tweak
+- type: thiefBackpackSet
+  id: WeaponBlueshieldBaton
+  name: blueshield-voucher-baton-name
+  description: blueshield-voucher-baton-description
+  sprite:
+    sprite: Void/Objects/Weapons/Melee/hosbaton.rsi
+    state: stunbaton_on
+  content:
+  - BaseWeaponBlueshieldBaton
+
+- type: thiefBackpackSet
+  id: WeaponBlueshieldHalberd
+  name: blueshield-voucher-halberd-name
+  description: blueshield-voucher-halberd-description
+  sprite:
+    sprite: Void/Objects/Weapons/Melee/halberd.rsi
+    state: icon
+  content:
+  - BSOHalberd
+
+- type: thiefBackpackSet
+  id: WeaponBlueshieldSupport
+  name: blueshield-voucher-support-name
+  description: blueshield-voucher-support-description
+  sprite:
+    sprite: ADT/Objects/Specific/Medical/mobile_defib.rsi
+    state: icon
+  content:
+  - BaseWeaponBlueshieldSupport

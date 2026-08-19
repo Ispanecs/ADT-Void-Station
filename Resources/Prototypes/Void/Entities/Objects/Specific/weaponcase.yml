@@ -1,0 +1,58 @@
+﻿- type: entity
+  id: BaseWeaponBlueshieldBaton
+  name: оружейный кейс
+  description: Строгий оружейный кейс, скрывающий в себе что-то смертоносное.
+  suffix: ОСЩ, Эр.У.П.
+  parent: [ BaseStorageItem, BaseBagOpenClose ]
+  components:
+  - type: Sprite
+    sprite: ADT/Objects/Storage/weaponcase.rsi
+    layers:
+    - state: closed
+    - state: open
+      map: ["openLayer"]
+  - type: Appearance
+  - type: Item
+    sprite: ADT/Objects/Storage/weaponcase.rsi
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,1,1
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: BlueshieldBatton
+
+- type: entity
+  id: BaseWeaponBlueshieldSupport
+  name: оружейный кейс
+  description: Строгий оружейный кейс, скрывающий в себе что-то смертоносное.
+  suffix: ОСЩ, Поддержка
+  parent: [ BaseStorageItem, BaseBagOpenClose ]
+  components:
+  - type: Sprite
+    sprite: ADT/Objects/Storage/weaponcase.rsi
+    layers:
+    - state: closed
+    - state: open
+      map: ["openLayer"]
+  - type: Appearance
+  - type: Item
+    sprite: ADT/Objects/Storage/weaponcase.rsi
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,6,1
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: BSOEnergyShield
+        - id: DefibrillatorCompact
+        - id: ADTCombatHypospray
+        - id: ADTOmnizineBottle
+        - id: OpporozidoneBeakerSmall
+        - id: ADTOmnizineBottle
