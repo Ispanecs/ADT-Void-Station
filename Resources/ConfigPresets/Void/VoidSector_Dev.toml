@@ -20,6 +20,9 @@ fallbackpreset = "Extended"
 map_pool = "VoidMapPool"
 contraband_examine = false
 
+[netres]
+limit = 100.0
+
 [hub]
 advertise = false
 
