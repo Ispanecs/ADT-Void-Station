@@ -1,0 +1,35 @@
+- type: entity
+  parent: Clothing
+  id: TraumaClientID
+  suffix: Траума, VS
+  name: карта клиента
+  description: Карта клиента Trauma Team Interstellar.
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Specific/Trauma/clientcard.rsi
+    state: icon
+  - type: Item
+    size: Small
+    heldPrefix: default
+    storedRotation: -90
+  - type: EmitSoundOnPickup
+    sound:
+      path: /Audio/ADT/Items/Handling/card_pickup.ogg
+      params:
+        volume: -5
+  - type: EmitSoundOnDrop
+    sound:
+      path: /Audio/ADT/Items/Handling/card_drop.ogg
+      params:
+        volume: -5
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/ADT/Items/Handling/card_drop.ogg
+      params:
+        volume: -5
+  - type: Prayable
+    sentMessage: prayer-popup-notify-centcom-sent
+    notificationPrefix: ТРАУМА
+    verb: Вызвать помощь
+    verbImage: null
+  # ADT-Tweak-End

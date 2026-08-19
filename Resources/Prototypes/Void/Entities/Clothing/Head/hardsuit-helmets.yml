@@ -40,11 +40,12 @@
   id: TraumaTeamHelmet
   name: EVA Шлем Парамедика "Траумы"
   description: Лёгкий шлем парамедиков TTI, адаптированный для действий в безвоздушном пространстве.
+  suffix: Траума, VS
   components:
   - type: Sprite
-    sprite: Void/Clothing/Head/Hardsuits/trauma.rsi
+    sprite: Void/Clothing/Head/Hardsuits/Trauma/trauma.rsi
   - type: Clothing
-    sprite: Void/Clothing/Head/Hardsuits/trauma.rsi
+    sprite: Void/Clothing/Head/Hardsuits/Trauma/trauma.rsi
   - type: PointLight
     color: "#00FFFF"
   - type: Armor
@@ -66,11 +67,12 @@
   id: TraumaTeamHelmetRed
   name: EVA Шлем Техника "Траумы"
   description: Укреплённый шлем техника TTI, адаптированный для действий в безвоздушном пространстве. Это кровь?..
+  suffix: Траума, VS
   components:
   - type: Sprite
-    sprite: Void/Clothing/Head/Hardsuits/traumared.rsi
+    sprite: Void/Clothing/Head/Hardsuits/Trauma/traumared.rsi
   - type: Clothing
-    sprite: Void/Clothing/Head/Hardsuits/traumared.rsi
+    sprite: Void/Clothing/Head/Hardsuits/Trauma/traumared.rsi
   - type: PointLight
     color: "#00FFFF"
   - type: Armor
@@ -92,11 +94,12 @@
   id: TraumaTeamHelmetSur
   name: EVA Шлем Реаниматора "Траумы"
   description: Высокотехнологичный шлем техника TTI показывающий всю необходимую информацию о физическом состоянии, адаптированый для действий в безвоздушном пространстве. Как платина...
+  suffix: Траума, VS
   components:
   - type: Sprite
-    sprite: Void/Clothing/Head/Hardsuits/traumasur.rsi
+    sprite: Void/Clothing/Head/Hardsuits/Trauma/traumasur.rsi
   - type: Clothing
-    sprite: Void/Clothing/Head/Hardsuits/traumasur.rsi
+    sprite: Void/Clothing/Head/Hardsuits/Trauma/traumasur.rsi
   - type: PointLight
     color: "#00FFFF"
   - type: Armor
