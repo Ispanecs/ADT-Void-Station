@@ -44,6 +44,9 @@
   - type: MiningVoucher
     kits:
     - WeaponSaberRevBlueshield
+    - WeaponBlueshieldBaton
+    - WeaponBlueshieldHalberd
+    - WeaponBlueshieldSupport
     typeDropPlace: ThisPlace
     typeDrop: Rocket
 

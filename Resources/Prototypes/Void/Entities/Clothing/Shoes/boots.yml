@@ -45,3 +45,15 @@
     sprite: Void/Clothing/Shoes/Boots/jackbootscross.rsi
   - type: Clothing
     sprite: Void/Clothing/Shoes/Boots/jackbootscross.rsi
+
+# Шмот ОСЩ, джорданы
+- type: entity
+  parent: ClothingShoesBootsJack
+  id: ClothingShoesJordansBlue
+  name: синие джорданы
+  description: Ты - самая модная персона в департаменте. Они ведь настоящие?
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Shoes/jordans.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Shoes/jordans.rsi

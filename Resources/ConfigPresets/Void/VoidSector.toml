@@ -38,6 +38,9 @@ fallbackpreset = "Extended"
 map_pool = "DefaultMapPool"
 contraband_examine = false
 
+[netres]
+limit = 100.0
+
 [replay]
 auto_record = true
 

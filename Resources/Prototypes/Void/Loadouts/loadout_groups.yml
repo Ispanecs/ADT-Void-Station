@@ -1,11 +1,19 @@
 # Centcom
+# - type: loadoutGroup
+#   id: BlueshieldBackpack
+#   name: loadout-group-blueshield-backpack
+#   loadouts:
+#   - BlueshieldBackpack
+#   - BlueshieldSatchel
+#   - BlueshieldDuffel
+
 - type: loadoutGroup
-  id: BlueshieldBackpack
-  name: loadout-group-blueshield-backpack
+  id: VSBlueshieldShoes
+  name: ОСЩ, обувь
   loadouts:
-  - BlueshieldBackpack
-  - BlueshieldSatchel
-  - BlueshieldDuffel
+  - BlueshieldJordans
+  - BlueshieldArmyShoes
+  - BlueshieldJackBoots
 
 # Security
 - type: loadoutGroup
@@ -15,3 +23,4 @@
   - BrigmedicBackpack
   - BrigmedicSatchel
   - BrigmedicDuffel
+

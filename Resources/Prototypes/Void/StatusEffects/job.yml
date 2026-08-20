@@ -21,3 +21,53 @@
     sprite: /Textures/Void/Interface/Misc/job_icons.rsi
     state: Blueshield
   jobName: job-name-blueshieldofficer
+
+# СССП
+# Бур
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUSSPSteersman
+  icon:
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+    state: USSPSteersman
+  jobName: Штурман
+
+# - type: jobIcon
+#   parent: JobIcon
+#   id: JobIconUSSPCommander
+#   icon:
+#     sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+#     state: JobIconUSSPCommander
+#   jobName: job-name-ussp-army-private
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUSSPAcoustic
+  icon:
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+    state: USSPAcoustic
+  jobName: Акустик
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUSSPElectrician
+  icon:
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+    state: USSPElectrician
+  jobName: Электромеханик
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUSSPCook
+  icon:
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+    state: USSPCook
+  jobName: Кук
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconUSSPGeologist
+  icon:
+    sprite: /Textures/Void/Interface/Misc/job_icons.rsi
+    state: USSPGeologist
+  jobName: Геолог

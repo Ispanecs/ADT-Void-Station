@@ -49,11 +49,12 @@
   id: ClothingOuterHardsuitTraumaTeam
   name: EVA Парамедика "Траумы"
   description: Специальный прототип скафандра EVA для отрядов Trauma Team Interstellar. Снабжен экзоскелетом для повышенной грузоподъёмности и мобильности.
+  suffix: Траума, VS
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+    sprite: Void/Clothing/OuterClothing/Hardsuits/Trauma/traumasuit.rsi
   - type: Clothing
-    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+    sprite: Void/Clothing/OuterClothing/Hardsuits/Trauma/traumasuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -76,11 +77,12 @@
   id: ClothingOuterHardsuitTraumaTeamRed
   name: EVA Техника "Траумы"
   description: Специальный прототип скафандра EVA для отрядов Trauma Team Interstellar. Снабжен экзоскелетом для повышенной грузоподъёмности и мобильности.
+  suffix: Траума, VS
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+    sprite: Void/Clothing/OuterClothing/Hardsuits/Trauma/traumasuitred.rsi
   - type: Clothing
-    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+    sprite: Void/Clothing/OuterClothing/Hardsuits/Trauma/traumasuitred.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -106,11 +108,12 @@
   id: ClothingOuterHardsuitTraumaTeamSur
   name: EVA Реаниматора "Траумы"
   description: Специальный прототип скафандра EVA для отрядов Trauma Team Interstellar. Снабжен экзоскелетом для повышенной грузоподъёмности и мобильности.
+  suffix: Траума, VS
   components:
   - type: Sprite
-    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+    sprite: Void/Clothing/OuterClothing/Hardsuits/Trauma/traumasuitsur.rsi
   - type: Clothing
-    sprite: Void/Clothing/OuterClothing/Hardsuits/traumateam.rsi
+    sprite: Void/Clothing/OuterClothing/Hardsuits/Trauma/traumasuitsur.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000

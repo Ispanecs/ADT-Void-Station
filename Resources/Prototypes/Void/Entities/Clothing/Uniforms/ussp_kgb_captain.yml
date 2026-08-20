@@ -1,0 +1,11 @@
+﻿- type: entity
+  parent: ClothingUniformBase
+  id: JumpSuitKGBCaptain
+  name: форма капитана КГБ
+  description: Форма СССП, назначенная для высокопоставленных лиц КГБ. Пахнет репрессиями.
+  suffix: СССП, VS
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Uniforms/Jumpsuit/ussp_kgb_captain.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Uniforms/Jumpsuit/ussp_kgb_captain.rsi

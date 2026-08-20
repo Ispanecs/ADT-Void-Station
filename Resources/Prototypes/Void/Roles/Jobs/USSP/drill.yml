@@ -1,0 +1,81 @@
+﻿- type: job
+  id: JobUSSPSteersman
+  name: Штурман
+  description: Возьмите управление штурвалом в свои руки!
+  playTimeTracker: JobUSSPSteersman # Заглушка
+  setPreference: false
+  icon: "JobIconUSSPSteersman"
+  supervisors: job-supervisors-ussp-centcom
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  canBeAntag: false
+
+- type: job
+  id: JobUSSPCommander
+  name: Командир
+  description: Командуйте и организовывайте экипаж!
+  playTimeTracker: JobUSSPCommander # Заглушка
+  setPreference: false
+  icon: "JobIconADTUSSPArmyOfficer"
+  supervisors: job-supervisors-ussp-centcom
+  accessGroups:
+  - Maintenance
+  - External
+  - ADTAccessCaptain # Поменять при переносе на другие сборки, очевидно
+  canBeAntag: false
+
+- type: job
+  id: JobUSSPAcoustic
+  name: Акустик
+  description: Используя бортовое оборудование, вслушивайтесь в пустоты...
+  playTimeTracker: JobUSSPAcoustic # Заглушка
+  setPreference: false
+  icon: "JobIconUSSPAcoustic"
+  supervisors: job-supervisors-ussp-centcom
+  access:
+  - Cargo
+  - Maintenance
+  canBeAntag: false
+
+- type: job
+  id: JobUSSPElectrician
+  name: Электромеханик
+  description: Контролируйте энергообеспечение объекта!
+  playTimeTracker: JobUSSPElectrician # Заглушка
+  setPreference: false
+  icon: "JobIconUSSPElectrician"
+  supervisors: job-supervisors-ussp-centcom
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  canBeAntag: false
+
+- type: job
+  id: JobUSSPCook
+  name: Кок
+  description: Не дайте экипажу умереть от голода!
+  playTimeTracker: JobUSSPCook # Заглушка
+  setPreference: false
+  icon: "JobIconUSSPCook"
+  supervisors: job-supervisors-ussp-centcom
+  access:
+  - Service
+  - Maintenance
+  - Kitchen
+  canBeAntag: false
+
+- type: job
+  id: JobUSSPGeologist
+  name: Геолог
+  description: Изучайте горную породу!
+  playTimeTracker: JobUSSPGeologist # Заглушка
+  setPreference: false
+  icon: "JobIconUSSPGeologist"
+  supervisors: job-supervisors-ussp-centcom
+  access:
+  - Research
+  - Maintenance
+  canBeAntag: false

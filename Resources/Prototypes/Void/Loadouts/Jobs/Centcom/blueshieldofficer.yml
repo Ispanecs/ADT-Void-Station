@@ -1,15 +1,30 @@
 # Back
-- type: loadout
-  id: BlueshieldBackpack
-  equipment:
-    back: ClothingBackpackBlueshield
+# - type: loadout
+#   id: BlueshieldBackpack
+#   equipment:
+#     back: ClothingBackpackBlueshield
+
+# - type: loadout
+#   id: BlueshieldSatchel
+#   equipment:
+#     back: ClothingBackpackSatchelBlueshield
+
+# - type: loadout
+#   id: BlueshieldDuffel
+#   equipment:
+#     back: ClothingBackpackDuffelBlueshield
 
 - type: loadout
-  id: BlueshieldSatchel
+  id: BlueshieldJordans
   equipment:
-    back: ClothingBackpackSatchelBlueshield
+    shoes: ClothingShoesJordansBlue
 
 - type: loadout
-  id: BlueshieldDuffel
+  id: BlueshieldArmyShoes
   equipment:
-    back: ClothingBackpackDuffelBlueshield
+    shoes: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: BlueshieldJackBoots
+  equipment:
+    shoes: ClothingJackBootsCross
