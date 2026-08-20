@@ -1,9 +1,10 @@
 # Centcom
-- type: roleLoadout
-  id: JobBlueShieldOfficer
-  groups:
-  - BlueshieldBackpack
-  - Trinkets
+# ВП заменяет
+# - type: roleLoadout
+#   id: JobBlueShieldOfficer
+#   groups:
+#   - BlueshieldBackpack
+#   - Trinkets
 
 # Security
 #Конфликт с ВП
