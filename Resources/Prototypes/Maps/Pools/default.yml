@@ -36,7 +36,8 @@
   - ADT_Cluster
 # Micropop 0 - 20
   - ADT_Reach
-  - ADT_Silly
+# - ADT_Silly # Void Sector tweak
+  - VS_Silly # Void Sector tweak
 
 # ADT Maps Выведенные на переработку
   # - ADT_Gate пока минока не начнёт нормально работать
