@@ -8,7 +8,7 @@ namespace Content.Server.ADT.ClockGreeting;
 
 public sealed class ClockGreetingSystem : EntitySystem
 {
-    private const int GameYearOffset = 544;
+    private const int GameYearOffset = 1000; //Void Sector tweak
     private const int EarthTimeOffsetHours = 3;
 
     [Dependency] private readonly GameTicker _ticker = default!;
