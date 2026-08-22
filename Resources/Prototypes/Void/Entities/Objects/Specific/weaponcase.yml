@@ -50,7 +50,7 @@
     containers:
       storagebase: !type:AllSelector
         children:
-        - id: BSOEnergyShield
+        - id: ADTBlueShieldEnergyShield
         - id: DefibrillatorCompact
         - id: ADTCombatHypospray
         - id: ADTOmnizineBottle
