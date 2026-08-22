@@ -105,6 +105,7 @@
       - id: ADTMusicDiskSonic
       - id: ADTMusicDiskChill
       - id: ADTMusicDiskVa11Hall
+      - id: MusicDiscVoidMix # Void Sector tweak
 
 - type: entity
   name: box of music discs
@@ -128,6 +129,7 @@
       - id: ADTMusicDiskSonic
       - id: ADTMusicDiskChill
       - id: ADTMusicDiskVa11Hall
+      - id: MusicDiscVoidMix # Void Sector tweak
 
 - type: entity
   name: music set Syndicate

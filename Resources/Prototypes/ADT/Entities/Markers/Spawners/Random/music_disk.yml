@@ -17,6 +17,7 @@
       - id: ADTMusicDiskVa11Hall
       - id: ADTMusicDiskCeleste
       - id: ADTMusicDiskMix
+      - id: MusicDiscVoidMix # Void Sector tweak
 
 - type: entityTable
   id: ADTMusicDiskSalvage
@@ -36,3 +37,4 @@
       - id: ADTMusicDiskVa11Hall
       - id: ADTMusicDiskCeleste
       - id: ADTMusicDiskMix
+      - id: MusicDiscVoidMix # Void Sector tweak
