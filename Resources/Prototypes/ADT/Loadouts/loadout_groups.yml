@@ -401,6 +401,7 @@
   - ADTBlueshieldJumpskirt
   - ADTBlueshieldJumpsuitTurtleneck
   - ADTBlueshieldJumpskirtTurtleneck
+  - ADTBlueshieldJumpskirtTacticalMaid
 
 - type: loadoutGroup
   id: ADTBlueshieldHead
@@ -601,6 +602,16 @@
   - ADTNeckSecBadgeSilver
   - ADTNeckSecBadgeGold
 
+- type: loadoutGroup
+  id: SecurityOfficerGlassesADT
+  name: loadout-security-officer-glasses-adt
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ADTClothingEyesGlassesSecurity
+  - ADTClothingEyesHudSecurity
+  - ADTClothingEyesHudAlt
+
 # CADET
 
 - type: loadoutGroup
@@ -678,6 +689,8 @@
   loadouts:
   - ADTHeadHatBeretBrigmedic
   - ADTHeadHelmetSecurityMedic
+  - ADTClothingHeadHatBeretSecurityMedic
+  - ADTClothingHeadHatBeretMedic
 
   #neck
 - type: loadoutGroup
@@ -740,8 +753,8 @@
   minLimit: 0
   maxLimit: 1
   loadouts:
-  - ADTOuterCoatBrigmedicWB
-  - ADTOuterVestSecurityMedic
+  - ADTClothingOuterCoatAMG
+  - ADTClothingOuterVestArmorMedSec
   - ADTOuterCoatLabSecurityMedic
 
 ## повар
@@ -751,8 +764,7 @@
   name: loadout-chef-pocket1-adt
   minLimit: 0
   maxLimit: 1
-  loadouts:
-  - ADTChefManual
+  loadouts: []
 
 - type: loadoutGroup
   id: ADTChefGloves
@@ -1150,6 +1162,24 @@
   - ADTTouristPDA
   - ADTStudentPDA
 
+# Ассистент, формальная одежда
+- type: loadoutGroup
+  id: ADTPassengerHead
+  name: loadout-group-passenger-head-adt
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ADTClothingHeadHatBowlerHat
+  - ADTClothingHeadHatTophat
+
+- type: loadoutGroup
+  id: ADTPassengerGlasses
+  name: loadout-group-passenger-glasses-adt
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ADTClothingEyesGlassesMonocle
+
 - type: loadoutGroup
   id: ADTBartenderPDA
   name: loadout-group-bartender-id-adt
@@ -1410,6 +1440,23 @@
   - ADTSprayPaintWhite
   - ADTSprayPaintBlack
 
+- type: loadoutGroup
+  id: ADTRacialItems
+  name: loadout-group-racial-items
+  minLimit: 0
+  maxLimit: 4
+  loadouts:
+  - ADTVoxGloves
+  - ADTVoxUniform
+  - ADTVoxUniformRed
+  - ADTVoxUniformGreen
+  - ADTVoxUniformBlue
+  - ADTVoxUniformTeal
+  - ADTVoxUniformPurple
+  - ADTVoxUniformYellow
+  - ADTVoxRobe
+  - ADTVoxSandals
+
 # ОЧЕНЬ ПРОШУ ДЕЛАТЬ НОВЫЕ ГРУППЫ НАД НИЖНИМ БЕЛЬЁМ А НЕ ПОД НИМ. ИНАЧЕ Я ЁЖИКОВ НА ВАС НАТРАВЛЮ И ВАМ КАПУТ.
 # Н А Д Е Ю С Ь  В Ы  М Е Н Я  У С Л Ы Ш А Л И ! ! !
 
@@ -1424,6 +1471,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1431,8 +1481,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
   - ADTUnderwearMonokiniWhite
   - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTTop
@@ -1441,6 +1495,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
   - ADTUnderwearBraSports
@@ -1451,8 +1507,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
   - ADTUnderwearTopMonokiniWhite
   - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTSocks
@@ -1518,6 +1578,7 @@
   - ADTUnderwearSocksYellow
   - ADTUnderwearSocksKneeYellow
   - ADTUnderwearSocksThighYellow
+  - ADTUnderwearSocksCow
 
 ## Бельё для клоуна и мима
 
@@ -1587,6 +1648,7 @@
   - ADTUnderwearSocksYellow
   - ADTUnderwearSocksKneeYellow
   - ADTUnderwearSocksThighYellow
+  - ADTUnderwearSocksCow
 
 - type: loadoutGroup
   id: ADTSocksMime
@@ -1653,6 +1715,7 @@
   - ADTUnderwearSocksYellow
   - ADTUnderwearSocksKneeYellow
   - ADTUnderwearSocksThighYellow
+  - ADTUnderwearSocksCow
 
 ## Бельё для глав
 
@@ -1669,6 +1732,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1676,6 +1742,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTBottomRD
@@ -1688,6 +1760,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1695,6 +1770,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTBottomCap
@@ -1707,6 +1788,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1714,6 +1798,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTBottomHOP
@@ -1726,6 +1816,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1733,6 +1826,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTBottomHOS
@@ -1745,6 +1844,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1752,6 +1854,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTBottomCMO
@@ -1764,6 +1872,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1771,6 +1882,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTBottomCE
@@ -1783,6 +1900,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1790,6 +1910,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 - type: loadoutGroup
   id: ADTBottomBlueshield
@@ -1802,6 +1928,9 @@
   - ADTUnderwearBoxersWhite
   - ADTUnderwearBoxersAmerica
   - ADTUnderwearBoxersBoom
+  - ADTUnderwearBoxersBlack
+  - ADTUnderwearBoxersBlue
+  - ADTUnderwearBoxersRed
   - ADTUnderwearBriefsWhite
   - ADTUnderwearPantiesWhite
   - ADTUnderwearPantiesComfyWhite
@@ -1809,6 +1938,12 @@
   - ADTUnderwearPantiesLaceBlue
   - ADTUnderwearPantiesLaceRed
   - ADTUnderwearPantiesLaceBlack
+  - ADTUnderwearPantiesBlack
+  - ADTUnderwearPantiesBlue
+  - ADTUnderwearPantiesRed
+  - ADTUnderwearMonokiniWhite
+  - ADTUnderwearMonokiniBlack
+  - ADTUnderwearPantiesCow
 
 ### Топ
 
@@ -1819,6 +1954,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraQM
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
@@ -1830,6 +1967,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTTopRD
@@ -1838,6 +1981,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraRD
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
@@ -1849,6 +1994,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTTopCap
@@ -1857,6 +2008,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraCap
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
@@ -1868,6 +2021,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTTopHOP
@@ -1876,6 +2035,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraHOP
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
@@ -1887,6 +2048,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTTopHOS
@@ -1905,6 +2072,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTTopCMO
@@ -1913,6 +2086,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraCMO
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
@@ -1924,6 +2099,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTTopCE
@@ -1932,6 +2113,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraCE
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
@@ -1943,6 +2126,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 - type: loadoutGroup
   id: ADTTopBlueshield
@@ -1951,6 +2140,8 @@
   maxLimit: 1
   loadouts:
   - ADTUnderwearTShirt
+  - ADTUnderwearTShirtBlack
+  - ADTUnderwearTShirtTelnik
   - ADTUnderwearBraBlueshield
   - ADTUnderwearBraWhite
   - ADTUnderwearBraComfyWhite
@@ -1962,6 +2153,12 @@
   - ADTUnderwearBraLaceBlue
   - ADTUnderwearBraLaceRed
   - ADTUnderwearBraLaceBlack
+  - ADTUnderwearBraBlack
+  - ADTUnderwearBraBlue
+  - ADTUnderwearBraRed
+  - ADTUnderwearTopMonokiniWhite
+  - ADTUnderwearTopMonokiniBlack
+  - ADTUnderwearBraCow
 
 ### Носки, гольфы и чулки
 
@@ -2031,6 +2228,7 @@
   - ADTUnderwearSocksYellow
   - ADTUnderwearSocksKneeYellow
   - ADTUnderwearSocksThighYellow
+  - ADTUnderwearSocksCow
 
 
 - type: loadoutGroup
@@ -2100,6 +2298,7 @@
   - ADTUnderwearSocksYellow
   - ADTUnderwearSocksKneeYellow
   - ADTUnderwearSocksThighYellow
+  - ADTUnderwearSocksCow
 
 - type: loadoutGroup
   id: ADTSocksHOS
@@ -2168,6 +2367,7 @@
   - ADTUnderwearSocksYellow
   - ADTUnderwearSocksKneeYellow
   - ADTUnderwearSocksThighYellow
+  - ADTUnderwearSocksCow
 
 - type: loadoutGroup
   id: ADTSocksCaptain
@@ -2236,6 +2436,7 @@
   - ADTUnderwearSocksYellow
   - ADTUnderwearSocksKneeYellow
   - ADTUnderwearSocksThighYellow
+  - ADTUnderwearSocksCow
 
 # ОЧЕНЬ ПРОШУ ДЕЛАТЬ НОВЫЕ ГРУППЫ НАД НИЖНИМ БЕЛЬЁМ А НЕ ПОД НИМ. ИНАЧЕ Я ЁЖИКОВ НА ВАС НАТРАВЛЮ И ВАМ КАПУТ.
 # Н А Д Е Ю С Ь  В Ы  М Е Н Я  У С Л Ы Ш А Л И ! ! !
