@@ -121,7 +121,7 @@
     tags:
       - DoorBumpOpener
   - type: MovementAlwaysTouching
-  - type: PressureImmunity
+  - type: SpecialPressureImmunity
   - type: ProtectedFromStepTriggers
   - type: Insulated
   - type: GhostRole

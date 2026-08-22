@@ -489,7 +489,7 @@
 #Тело, руки и "ноги" слизнекота
 #####################################################
 
-- type: body
+- type: entity
   id: SlimecatSM
   name: "SlimecatSM"
   root: torso
@@ -524,7 +524,7 @@
     feet:
       part: FeetAnimal
 
-- type: body
+- type: entity
   id: Slimecat
   name: "Slimecat"
   root: torso
@@ -549,7 +549,7 @@
     feet:
       part: FeetAnimal
 
-- type: body
+- type: entity
   id: SlimecatGourmand
   name: "Slimecat"
   root: torso
@@ -574,7 +574,7 @@
     feet:
       part: FeetAnimal
 
-- type: body
+- type: entity
   id: SlimecatRivulet
   name: "Slimecat"
   root: torso
@@ -2167,14 +2167,14 @@
     - type: Respirator
       damage:
         types:
-        Asphyxiation: 0.25
+          Asphyxiation: 0.25
       damageRecovery:
         types:
           Asphyxiation: -0.25
     - type: Barotrauma
       damage:
         types:
-        Blunt: 0.1
+          Blunt: 0.10
     - type: CombatMode
     - type: MeleeWeapon
       soundHit:
