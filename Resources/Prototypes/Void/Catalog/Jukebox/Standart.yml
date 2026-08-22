@@ -582,6 +582,12 @@
   path:
     path: /Audio/Void/Jukebox/The-Future-Mystery-Skulls.ogg
 
+- type: jukebox
+  id: LouderThanWords
+  name: Les Friction - Louder Than Words
+  path:
+    path: /Audio/Void/Jukebox/Les Friction - Louder Than Words - OfficialLesFriction.ogg 
+
 # ????????????
 - type: jukebox
   id: TheRealKrisShady
