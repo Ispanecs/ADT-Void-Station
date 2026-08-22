@@ -88,7 +88,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         Subs.CVar(_configurationManager, CCVars.LoocEnabled, OnLoocEnabledChanged, true);
         Subs.CVar(_configurationManager, CCVars.DeadLoocEnabled, OnDeadLoocEnabledChanged, true);
-        Subs.CVar(_configurationManager, CCVars.CritLoocEnabled, OnCritLoocEnabledChanged, true);
+        Subs.CVar(_configurationManager, CCVars.CritLoocEnabled, OnCritLoocEnabledChanged, false); // Void Sector tweak
 
         SubscribeLocalEvent<GameRunLevelChangedEvent>(OnGameChange);
     }
