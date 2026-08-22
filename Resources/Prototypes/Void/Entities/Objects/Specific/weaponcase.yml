@@ -18,12 +18,13 @@
   - type: Storage
     maxItemSize: Normal
     grid:
-    - 0,0,1,1
+    - 0,0,2,1
   - type: EntityTableContainerFill
     containers:
       storagebase: !type:AllSelector
         children:
         - id: BlueshieldBaton
+        - id: ADTBlueShieldEnergyShield
 
 - type: entity
   id: BaseWeaponBlueshieldSupport
