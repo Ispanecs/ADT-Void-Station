@@ -1,0 +1,54 @@
+﻿- type: entity
+  name: баночка рутбира
+  description: Вкуснейший рутбир, теперь в компактной банке!
+  parent: [VolatileGrenadeBase, GrenadeBase]
+  id: thething
+  suffix: Адмемы
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Fun/thething.rsi
+  - type: ExplodeOnTrigger
+    keysIn:
+    - timer
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 10
+    intensitySlope: 3
+    totalIntensity: 240 # about a ~4 tile radius
+    canCreateVacuum: false
+  - type: TimerTrigger
+    beepSound:
+      path: "/Audio/Void/Effects/Fun/the_thing.ogg" 
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 3 # 2 beeps total (at 0 and 2)
+
+- type: entity
+  parent: FoodInjectableBase # Not sliceable
+  id: FoodPieSlicePoisoned
+  suffix: Отравленный
+  name: кусок тыквенного пирога
+  description: Кусочек пирога. Объедение!
+  components:
+  - type: Item
+    size: Tiny
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - pumpkin
+      - bad-decision
+  - type: Sprite
+    sprite: Objects/Consumable/Food/Baked/pie.rsi
+    state: pumpkin-slice
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Lexorin
+          Quantity: 12 # Не доводит до крита при полном здоровье
+  - type: Tag
+    tags:
+    - Pie
+    - Slice
