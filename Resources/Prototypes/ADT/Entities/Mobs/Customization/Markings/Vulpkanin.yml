@@ -241,7 +241,7 @@
   id: ADTVulpkaninskull_sponsor
   bodyPart: Head
   groupWhitelist: [Vulpkanin]
-  sponsorOnly: true
+  sponsorOnly: false # Void Sector tweak
   sprites:
     - sprite: ADT/Mobs/Customization/Vulpkanin/vulpkanin_head.rsi
       state: skull_sponsor
