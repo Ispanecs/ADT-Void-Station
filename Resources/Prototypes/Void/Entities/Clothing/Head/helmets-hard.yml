@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingHeadHelmetBase, BaseRestrictedContraband]
+  parent: [ClothingHeadHelmetArmoredBase, BaseSecurityContraband]
   id: ClothingHeadHelmetLight
   name: лёгкий шлем службы безопасности
   description: Стандартный шлем охраны из облегчённых материалов, всё ещё не уступает по защите остальным вариантам.
