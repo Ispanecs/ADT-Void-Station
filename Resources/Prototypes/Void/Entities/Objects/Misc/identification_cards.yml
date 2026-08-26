@@ -220,7 +220,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Пехотинец-СКФНТ
+    jobTitle: job-name-centcom-fleet-trooper
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -241,7 +241,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Канонир-СКФНТ
+    jobTitle: job-name-centcom-fleet-cannoneer
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -262,7 +262,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Пилот-СКФНТ
+    jobTitle: job-name-centcom-fleet-pilot
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -283,7 +283,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Капитан-СКФНТ
+    jobTitle: job-name-centcom-fleet-captain
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -304,7 +304,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Сотрудник АСНТ
+    jobTitle: job-name-nt-agent
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -325,7 +325,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Оператор Центком
+    jobTitle: job-name-centcom-operator
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -346,7 +346,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Главный Технический Оператор
+    jobTitle: job-name-centcom-techical-operator
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -367,7 +367,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Итендант
+    jobTitle: job-name-centcom-intendant
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -388,7 +388,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Представитель НаноТрейзен
+    jobTitle: job-name-centcom-representative
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -409,7 +409,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: ОКО
+    jobTitle: job-name-centcom-oko
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -430,7 +430,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: СДЦК
+    jobTitle: job-name-centcom-dispatch
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -451,7 +451,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: САЦК
+    jobTitle: job-name-centcom-admiral
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
