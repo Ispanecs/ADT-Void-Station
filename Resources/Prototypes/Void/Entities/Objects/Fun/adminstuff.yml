@@ -1,7 +1,7 @@
 ﻿- type: entity
   name: баночка рутбира # Я НЕ БУДУ ПИТЬ РУТБИР
   description: Вкуснейший рутбир, теперь в компактной банке!
-  parent: [VolatileGrenadeBase, GrenadeBase]
+  parent: [VolatileGrenadeBase, TimerGrenadeBase]
   id: thething
   suffix: Адмемы
   components:
