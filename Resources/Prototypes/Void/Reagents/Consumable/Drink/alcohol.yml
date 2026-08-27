@@ -1,0 +1,39 @@
+- type: reagent
+  id: BadBeer
+  name: пиво
+  parent: BaseAlcohol
+  desc: Отвратительная пародия на пиво.
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: bad-beer
+  color: "#5b5e2b"
+  recognizable: true
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/beerglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 6
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: true
+  fizziness: 0.6
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.25
+      - !type:AdjustReagent
+        reagent: Mold
+        amount: 0.1
+      - !type:AdjustReagent
+        reagent: Mercury
+        amount: 0.1
+      - !type:AdjustReagent
+        reagent: Lead
+        amount: 0.1
+      - !type:SatiateThirst
+        factor: 2
+      - !type:Vomit
+        probability: 0.01
+      - !type:PopupMessage
+        type: Local
+        visualType: SmallCaution
+        messages: [ "generic-reagent-effect-sick" ]
