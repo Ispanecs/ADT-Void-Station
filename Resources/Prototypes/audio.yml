@@ -223,6 +223,9 @@
     - /Audio/Lobby/title2.ogg
     - /Audio/ADT/Ambience/Music/CM.ogg #ADT-Tweak
     - /Audio/ADT/Ambience/Music/CL.ogg #ADT-Tweak
+    - /Audio/Void/Ambience/Music/TheRiver.ogg # Void Sector tweak
+    - /Audio/Void/Ambience/Music/Space.ogg # Void Sector tweak
+    - /Audio/Void/Ambience/Music/Travelers.ogg # Void Sector tweak
 
 - type: soundCollection
   id: AmbienceSpooky
