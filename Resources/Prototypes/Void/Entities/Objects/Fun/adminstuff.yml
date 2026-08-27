@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: баночка рутбира
+  name: баночка рутбира # Я НЕ БУДУ ПИТЬ РУТБИР
   description: Вкуснейший рутбир, теперь в компактной банке!
   parent: [VolatileGrenadeBase, GrenadeBase]
   id: thething
@@ -52,3 +52,82 @@
     tags:
     - Pie
     - Slice
+
+- type: entity
+  parent: ImmovableRod
+  id: ImmovableRodBugatti
+  suffix: Bugatti
+  components:
+  - type: ImmovableRod
+    minSpeed: 5
+    maxSpeed: 15
+    destroyTiles: false
+    randomizeVelocity: false
+    shouldGib: false
+    damage:
+      types:
+        Blunt: 200
+  - type: Physics
+    bodyType: KinematicController
+  - type: MovementIgnoreGravity
+    gravityState: true
+  - type: InputMover
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 5
+    weightlessModifier: 2
+    weightlessFriction: 0
+    friction: 0
+    frictionNoInput: 0
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: NoSlip
+  - type: TimedDespawn
+    lifetime: 30.0
+  - type: AmbientSound
+    volume: 5
+    range: 25
+    sound:
+      path: /Audio/Void/Ambience/Objects/bugatti.ogg
+
+- type: entity
+  parent: ImmovableRod
+  id: ImmovableRodSova
+  suffix: Сова
+  components:
+  - type: ImmovableRod
+    minSpeed: 5
+    maxSpeed: 15
+    destroyTiles: false
+    randomizeVelocity: false
+    shouldGib: false
+    damage:
+      types:
+        Blunt: 200
+  - type: Physics
+    bodyType: KinematicController
+  - type: MovementIgnoreGravity
+    gravityState: true
+  - type: InputMover
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 5
+    weightlessModifier: 2
+    weightlessFriction: 0
+    friction: 0
+    frictionNoInput: 0
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: NoSlip
+  - type: PointLight
+    radius: 3
+    color: white
+    energy: 2.0
+  - type: Sprite
+    sprite: ADT/Objects/Fun/toys.rsi
+    state: plushie_owl
+    noRot: true
+  - type: Pullable
+  - type: AmbientSound
+    volume: 5
+    range: 25
+    sound:
+      path: /Audio/Void/Ambience/Objects/sova.ogg
