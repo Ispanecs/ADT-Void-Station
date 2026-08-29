@@ -30,6 +30,7 @@
   id: ClothingOuterVestKevlarCent
   name: фирменный кевларовый жилет Центкома
   description: Стоит как три станции.
+  suffix: VCC
   components:
   - type: Sprite
     sprite: Void/Clothing/OuterClothing/Armor/centkevlar.rsi
