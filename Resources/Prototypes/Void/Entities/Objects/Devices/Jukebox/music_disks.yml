@@ -2,7 +2,7 @@
   parent: ADTMusicDiskStandard
   id: MusicDiscVoidMix
   name: музыкальный диск (Пустотный микс)
-  description: Треки, собранные со всех известных пустотных секторов.
+  description: Самые разные треки, собранные со всех известных пустотных секторов в единый носитель.
   components:
   - type: Sprite
     sprite: ADT/Objects/Misc/music_disk.rsi
@@ -12,5 +12,22 @@
     - state: disk_label_music
   - type: JukeboxDisk
     tracksCollection: VoidMix
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ADTMusicDiskStandard
+  id: MusicDiscVoidRock
+  name: музыкальный диск (Пустотный рок)
+  description: Треки жанра рок, собранные со всех известных пустотных секторов в единый носитель.
+  components:
+  - type: Sprite
+    sprite: ADT/Objects/Misc/music_disk.rsi
+    layers:
+    - state: disk_base
+      color: "#480607"
+    - state: disk_label_music
+  - type: JukeboxDisk
+    tracksCollection: VoidRockMix
   - type: StaticPrice
     price: 50

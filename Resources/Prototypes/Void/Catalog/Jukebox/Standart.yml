@@ -662,3 +662,64 @@
   name: N.W.A. - Express Yourself
   path:
     path: /Audio/Void/Jukebox/Express Yourself.ogg 
+
+# Музыка от 27.08.26
+- type: jukebox
+  id: Detal
+  name: Урфис Джюс - Лишняя деталь
+  path:
+    path: /Audio/Void/Jukebox/Detal.ogg 
+
+- type: jukebox
+  id: ComputerAboutLove
+  name: Урфис Джюс - Размышления компьютера о любви
+  path:
+    path: /Audio/Void/Jukebox/ComputerAboutLove.ogg 
+
+- type: jukebox
+  id: ForeignPeople
+  name: Инструкция по выживанию - Посторонние люди
+  path:
+    path: /Audio/Void/Jukebox/ForeignPeople.ogg 
+
+- type: jukebox
+  id: Teenager
+  name: Инструкция по выживанию - Тинейджер
+  path:
+    path: /Audio/Void/Jukebox/Teenager.ogg 
+
+- type: jukebox
+  id: Nikto
+  name: Игры - Я - никто
+  path:
+    path: /Audio/Void/Jukebox/Nikto.ogg 
+
+- type: jukebox
+  id: Nightmare
+  name: Круиз - Кошмарный сон
+  path:
+    path: /Audio/Void/Jukebox/Nightmare.ogg 
+
+- type: jukebox
+  id: SimpleManSong
+  name: Зоопарк - Песня простого человека
+  path:
+    path: /Audio/Void/Jukebox/SimpleManSong.ogg 
+
+- type: jukebox
+  id: ThisMusicWillBe
+  name: Наутилус Помпилиус - Эта музыка будет вечной
+  path:
+    path: /Audio/Void/Jukebox/ThisMusicWillBe.ogg 
+
+- type: jukebox
+  id: KhakiBall
+  name: Наутилус Помпилиус - Шар цвета хаки
+  path:
+    path: /Audio/Void/Jukebox/KhakiBall.ogg 
+
+- type: jukebox
+  id: CityBusiness
+  name: Мануфактура - Городские дела
+  path:
+    path: /Audio/Void/Jukebox/CityBusiness.ogg 

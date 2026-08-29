@@ -93,11 +93,11 @@
       - state: disk
   - type: Storage
     grid:
-    - 0,0,2,1
+    - 0,0,3,1
   - type: Item
     size: Normal
     shape:
-    - 0,0,2,1
+    - 0,0,3,1
   - type: StorageFill
     contents:
       - id: ADTMusicDiskStandard
@@ -106,6 +106,7 @@
       - id: ADTMusicDiskChill
       - id: ADTMusicDiskVa11Hall
       - id: MusicDiscVoidMix # Void Sector tweak
+      - id: MusicDiscVoidRock # Void Sector tweak
 
 - type: entity
   name: box of music discs
