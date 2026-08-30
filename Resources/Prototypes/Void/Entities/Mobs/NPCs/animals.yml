@@ -168,11 +168,11 @@
   - type: Respirator
     minSaturation: 5.0
 # бум
-  - type: Explosive # Powerful explosion in a very small radius. Doesn't break underplating.
+  - type: Explosive
     explosionType: DemolitionCharge
     # Стандартные значения (60, 5, 30)
     totalIntensity: 150
-    intensitySlope: 25
+    intensitySlope: 2.5
     maxIntensity: 50
     canCreateVacuum: false
   - type: Destructible
