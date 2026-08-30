@@ -14253,3 +14253,20 @@ Entries:
     id: 1831
     pr_number: 3233
     time: '2026-08-20T19:22:41Z'
+  - author: (Ispanecs)
+    changes:
+      - {message: Лёгкий шлем СБ, type: Fix}
+      - {message: Прототипы внешностей, type: Fix}
+      - {message: Пиво Баринъ, type: Add}
+      - {message: Таракамоль подрывник, type: Add}
+      - {message: Музыкальный диск Пустотный рок, type: Add}
+      - {message: Три новых (старых) предмета в аплинке Синдиката, type: Add}
+      - {message: Сова сова сова и Bugatti rod'ы, type: Add}
+      - {message: Три новые ambient мелодии для космоса, type: Add}
+      - {message: Дата в принтере документов теперь соответствует лору сервера, type: Tweak}
+      - {message: Окна и трубы (вроде) больше не лопаются от давления, type: Tweak}
+      - {message: Обновлён Silly Island, type: Tweak}
+      - {message: Костюм Йохана, type: Tweak}
+    id: 1832
+    pr_number: 6
+    time: '2026-08-30T12:31:27Z'
