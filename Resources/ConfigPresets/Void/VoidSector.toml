@@ -55,9 +55,6 @@ uptime_restart_minutes = 10080
 lobby_name = "VoidSector"
 lobby_right_panel_width = 520
 
-[console]
-login_host_user = "Ispanecss"
-
 [admin]
 see_own_notes = true
 note_fresh_days = 0

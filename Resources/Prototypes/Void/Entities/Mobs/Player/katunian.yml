@@ -1,5 +1,5 @@
-- type: entity
-  save: false
-  id: MobKatunian
-  name: Катунианец
-  parent: BaseMobKatunian
+# - type: entity
+#   save: false
+#   id: MobKatunian
+#   name: Катунианец
+#   parent: BaseMobKatunian

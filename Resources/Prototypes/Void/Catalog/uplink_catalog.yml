@@ -1,0 +1,54 @@
+# Оружие
+- type: listing
+  id: UplinkDataKnife
+  name: uplink-dataknife-name
+  description: uplink-dataknife-desc
+  icon: { sprite: /Textures/Void/Objects/Weapons/Melee/dataknife.rsi, state: icon }
+  productEntity: BaseDataKnife
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 9
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: UplinkDesertEagle
+  name: uplink-deserteagle-name
+  description: uplink-deserteagle-desc
+  icon: { sprite: /Textures/Void/Objects/Weapons/Guns/Pistols/Deagle.rsi, state: icon }
+  productEntity: DeagleGun
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: UplinkGoldenDesertEagle
+  name: uplink-goldendeserteagle-name
+  description: uplink-goldendeserteagle-desc
+  icon: { sprite: /Textures/Void/Objects/Weapons/Guns/Pistols/DeagleGold.rsi, state: icon }
+  productEntity: GoldenDeagleGun
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 10
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkWeaponry
+
+# Боеприпасы
+- type: listing
+  id: UplinkMagazineMagnum
+  name: uplink-magnum-name
+  description: uplink-magnum-desc
+  icon: { sprite: /Textures/ADT/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_magnum_mag.rsi, state: base }
+  productEntity: MagazineMagnum
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkAmmo

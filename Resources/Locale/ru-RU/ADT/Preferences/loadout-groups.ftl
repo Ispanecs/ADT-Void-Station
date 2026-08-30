@@ -5,11 +5,10 @@ loadout-group-top-adt = Нижнее белье(Верх)
 loadout-group-bottom-adt = Нижнее белье(Низ)
 loadout-group-socks-adt = Носки
 loadout-group-spray-paints = Баллончики с краской
-
+loadout-group-racial-items = Расовые предметы
 # Command
 ent-MagistratNeck = Галстуки
 ent-MagistratJumpsuit = Костюмы
-
 loadout-group-blueshield-jumpsuit = ОСЩ, комбинезон
 loadout-group-blueshield-head = ОСЩ, голова
 loadout-group-blueshield-neck = ОСЩ, шея
@@ -23,6 +22,8 @@ loadout-group-chef-id-adt = Шеф-повар, ID
 loadout-group-librarian-backpack = Библиотекарь, рюкзак
 loadout-group-librarian-id-adt = Библиотекарь, ID
 loadout-group-passenger-id-adt = Ассистент, ID
+loadout-group-passenger-head-adt = Ассистент, голова
+loadout-group-passenger-glasses-adt = Ассистент, очки
 loadout-group-bartender-id-adt = Бармен, ID
 loadout-group-clown-id-adt = Клоун, ID
 loadout-group-janitor-id-adt = Уборщик, ID
@@ -51,7 +52,6 @@ loadout-barber-shoes-adt = Парикмахер, обувь
 loadout-group-reporter-shoes-adt = Репортёр, обувь
 loadout-group-service-worker-shoes-adt = Сервисный работник, обувь
 loadout-group-mime-shoes-adt = Мим, обувь
-
 # Cargo
 loadout-group-quartermaster-id-adt = Квартирмейстер, ID
 loadout-quartermaster-ears-adt = Квартирмейстер, ухо
@@ -60,7 +60,6 @@ loadout-salvage-specialist-neck-adt = Утилизатор, шея
 loadout-salvage-specialist-ears-adt = Утилизатор, ухо
 loadout-group-salvage-id-adt = Утилизатор, ID
 loadout-group-cargo-id-adt = Грузчик, ID
-
 loadout-miner-jumpsuit-adt = Шахтёр, комбинезон
 loadout-miner-backpack = Шахтёр, рюкзак
 loadout-miner-ears-adt = Шахтёр, ухо
@@ -68,12 +67,10 @@ loadout-miner-neck-adt = Шахтёр, шея
 loadout-miner-outerclothing-adt = Шахтёр, верхняя одежда
 loadout-miner-shoes-adt = Шахтёр, обувь
 loadout-miner-id-adt = Шахтёр, ID
-
 # Chaplain
 loadout-chaplain-blessedbook-adt = Священник, священная книга
 loadout-group-chaplain-id-adt = Священник, ID
 loadout-group-chaplain-shoes-adt = Священник, обувь
-
 # Engineering
 loadout-chief-engineer-ears-adt = Старший инженер, ухо
 loadout-group-senior-engineer-head = Бригадир, голова
@@ -82,7 +79,6 @@ loadout-group-atmospheric-technician-neck = Атмосферный техник,
 loadout-group-atmospheric-technician-gasmask = Атмосферный техник, противогаз
 loadout-group-atmospheric-technician-head = Атмосферный техник, голова
 loadout-group-atmos-id-adt = Атмосферный техник, ID
-
 # Science
 loadout-research-director-ears-adt = Научный руководитель, ухо
 loadout-group-reserch-director-id-adt = Научный руководитель, ID
@@ -95,7 +91,6 @@ loadout-group-roboticist-jumpsuit = Робототехник, комбинезо
 loadout-group-roboticist-outerclothing = Робототехник, верхняя одежда
 loadout-group-roboticist-gloves = Робототехник, перчатки
 loadout-group-mechanical-assembler-id-adt = Робототехник, ID
-
 # Security
 loadout-group-sheriff-id-adt = Глава службы безопасности, ID
 loadout-group-senior-officer-jumpsuit = Офицер-инструктор, комбинезон
@@ -107,8 +102,8 @@ loadout-corrections-officer-jumpsuit-adt = Надзиратель СБ, комб
 loadout-corrections-officer-outerclothing-adt = Надзиратель СБ, верхняя одежда
 loadout-group-detective-id-adt = Детектив, ID
 loadout-security-officer-neck-adt = Офицер СБ, шея
+loadout-security-officer-glasses-adt = Офицер СБ, очки
 loadout-security-cadet-neck-adt = Кадет СБ, шея
-
 # Brigmedic
 loadout-brigmedic-jumpsuit-adt = Бригмедик, комбинезон
 loadout-brigmedic-head-adt = Бригмедик, голова
@@ -119,7 +114,6 @@ loadout-brigmedic-glasses-adt = Бригмедик, очки
 loadout-brigmedic-pda-adt = Бригмедик, ID
 loadout-brigmedic-belt-adt = Бригмедик, поясы
 loadout-brigmedic-outerwear-adt = Бригмедик, верхняя одежда
-
 # Medical
 loadout-group-chief-medical-officer-id-adt = Главный врач, ID
 loadout-chief-medical-officer-ears-adt = Главный врач, ухо
@@ -135,21 +129,17 @@ loadout-group-patholog-shoes = Патологоанатом, обувь
 loadout-group-patholog-backpack = Патологоанатом, рюкзак
 loadout-group-medical-belt-adt = Врач, пояс
 loadout-group-medical-intern-id-adt = Интерн, ID
-
 # Wildcards
 loadout-group-psychologist-id-adt = Психолог, ID
 loadout-group-psychologist-shoes-adt = Психолог, обувь
-
 # Juridical
 loadout-group-lawyer-id-adt = Адвокат, ID
 loadout-group-lawyer-gloves = Адвокат, перчатки
 loadout-group-lawyer-backpack = Магистрат, рюкзак
-
 # Command
 loadout-captain-ears-adt = Капитан, ухо
 loadout-HoP-ears-adt = Глава персонала, ухо
 loadout-HoP-shoes = Глава персонала, обувь
-
 # Consultant Centcom
 loadout-ccc-ears-adt = консультант Центком, ухо
 loadout-group-ccc-jumpsuit = консультант Центком, комбинезон

@@ -97,8 +97,7 @@
 - type: marking
   id: Head3
   bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [TajaranSpecies]
+  groupWhitelist: [Tajaran]
   sprites:
     - sprite: Void/Mobs/Customization/tajaran_head.rsi
       state: inears
@@ -126,8 +125,7 @@
 - type: marking
   id: Head6
   bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [TajaranSpecies]
+  groupWhitelist: [Tajaran]
   sprites:
     - sprite: Void/Mobs/Customization/tajaran_head.rsi
       state: outears

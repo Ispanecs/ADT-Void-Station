@@ -1,30 +1,27 @@
 
-- type: marking
-  id: DemomTail1
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [DemonSpecies]
-  sprites:
-  - sprite: Void/Mobs/Customization/demon.rsi
-    state: demon_tail
+# - type: marking
+#   id: DemomTail1
+#   bodyPart: Tail
+#   groupWhitelist: [Demon]
+#   sprites:
+#   - sprite: Void/Mobs/Customization/demon.rsi
+#     state: demon_tail
 
-- type: marking
-  id: DemomTailLong
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [DemonSpecies]
-  sprites:
-  - sprite: Void/Mobs/Customization/demon.rsi
-    state: long
+# - type: marking
+#   id: DemomTailLong
+#   bodyPart: Tail
+#   groupWhitelist: [Demon]
+#   sprites:
+#   - sprite: Void/Mobs/Customization/demon.rsi
+#     state: long
 
-- type: marking
-  id: DemomTailUp
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [DemonSpecies]
-  sprites:
-  - sprite: Void/Mobs/Customization/demon.rsi
-    state: up
+# - type: marking
+#   id: DemomTailUp
+#   bodyPart: Tail
+#   groupWhitelist: [Demon]
+#   sprites:
+#   - sprite: Void/Mobs/Customization/demon.rsi
+#     state: up
 
 #Конфликт с СД
 # - type: marking
@@ -39,8 +36,7 @@
 - type: marking
   id: Ariral
   bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [DemonSpecies]
+  groupWhitelist: [Demon]
   sprites:
   - sprite: Void/Mobs/Customization/demon.rsi
     state: ariral

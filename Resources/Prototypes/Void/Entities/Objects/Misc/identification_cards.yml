@@ -220,7 +220,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Пехотинец-СКФНТ
+    jobTitle: job-name-centcom-fleet-trooper
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -241,7 +241,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Канонир-СКФНТ
+    jobTitle: job-name-centcom-fleet-cannoneer
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -262,7 +262,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Пилот-СКФНТ
+    jobTitle: job-name-centcom-fleet-pilot
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -283,7 +283,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Капитан-СКФНТ
+    jobTitle: job-name-centcom-fleet-captain
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -304,7 +304,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Сотрудник АСНТ
+    jobTitle: job-name-nt-agent
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -317,7 +317,7 @@
   id: CentcomCustomRoleOperatorIDCard
   suffix: Оператор ЦентКом, VCC
   name: ID карта ОЦК
-  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит оператору центрального командования.
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности. Конкретно эта принадлежит оператору центрального командования.
   components:
   - type: Sprite
     layers:
@@ -325,7 +325,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Оператор Центком
+    jobTitle: job-name-centcom-operator
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -338,7 +338,7 @@
   id: CentcomCustomRoleTechicalOperatorIDCard
   suffix: Главный Технический Оператор, VCC
   name: ID карта ГТО
-  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит главному техническому оператору центрального командования.
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности. Конкретно эта принадлежит главному техническому оператору центрального командования.
   components:
   - type: Sprite
     layers:
@@ -346,7 +346,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Главный Технический Оператор
+    jobTitle: job-name-centcom-techical-operator
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -359,7 +359,7 @@
   id: CentcomCustomRoleIntendantIDCard
   suffix: Итендант, VCC
   name: ID карта итенданта
-  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит итенданту центрального командования.
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности. Конкретно эта принадлежит итенданту центрального командования.
   components:
   - type: Sprite
     layers:
@@ -367,7 +367,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Итендант
+    jobTitle: job-name-centcom-intendant
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -380,7 +380,7 @@
   id: CentcomCustomRoleRepresentativeIDCard
   suffix: Представитель, VCC
   name: ID карта представителя
-  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит представителю нанотрейзен.
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности. Конкретно эта принадлежит представителю Нанотрейзен.
   components:
   - type: Sprite
     layers:
@@ -388,7 +388,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Представитель НаноТрейзен
+    jobTitle: job-name-centcom-representative
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -401,7 +401,7 @@
   id: CentcomCustomRoleOkoIDCard
   suffix: ОКО, VCC
   name: ID карта офицера контрразведовательных операций
-  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит офицеру контрразведовательных операций центрального командования.
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности. Конкретно эта принадлежит офицеру контрразведовательных операций центрального командования.
   components:
   - type: Sprite
     layers:
@@ -409,7 +409,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: ОКО
+    jobTitle: job-name-centcom-oko
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -422,7 +422,7 @@
   id: CentcomCustomRoleDispatchIDCard
   suffix: Диспетчер, VCC
   name: ID карта диспетчера
-  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит секториальному диспетчеру центрального командования.
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности. Конкретно эта принадлежит секториальному диспетчеру центрального командования.
   components:
   - type: Sprite
     layers:
@@ -430,7 +430,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: СДЦК
+    jobTitle: job-name-centcom-dispatch
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:
@@ -443,7 +443,7 @@
   id: CentcomCustomRoleAdmiralIDCard
   suffix: Адмирал, VCC
   name: ID карта адмирала
-  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности, конкретно эта принадлежит секториальному адмиралу центрального командования.
+  description: ID карта сотрудника Центком. На ней содержится необходимая информация о владельце и его должности. Конкретно эта принадлежит секториальному адмиралу центрального командования.
   components:
   - type: Sprite
     layers:
@@ -451,7 +451,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: САЦК
+    jobTitle: job-name-centcom-admiral
     jobIcon: JobIconNanotrasen
   - type: Access
     groups:

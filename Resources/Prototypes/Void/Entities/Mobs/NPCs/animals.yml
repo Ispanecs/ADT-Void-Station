@@ -121,7 +121,7 @@
     tags:
       - DoorBumpOpener
   - type: MovementAlwaysTouching
-  - type: PressureImmunity
+  - type: SpecialPressureImmunity
   - type: ProtectedFromStepTriggers
   - type: Insulated
   - type: GhostRole
@@ -136,3 +136,49 @@
     prob: 0.2
   - type: Respirator
     minSaturation: 5.0
+
+- type: entity
+  id: MobMothroachС4
+  parent: MobMothroach
+  name: таракамоль подрывник
+  description: Это всё ещё конвенциональное оружие... Почти.
+  components:
+  - type: Sprite
+    sprite: Void/Mobs/Animals/mothroach_c4.rsi
+  - type: Temperature
+    heatDamageThreshold: 423
+    coldDamageThreshold: 0
+  - type: Tag
+    tags:
+      - DoorBumpOpener
+  - type: MovementAlwaysTouching
+  - type: SpecialPressureImmunity
+  - type: ProtectedFromStepTriggers
+  - type: Insulated
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-spacemothroach-name
+    description: ghost-role-information-spacemothroach-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
+    prob: 0.2
+  - type: Respirator
+    minSaturation: 5.0
+# бум
+  - type: Explosive
+    explosionType: DemolitionCharge
+    # Стандартные значения (60, 5, 30)
+    totalIntensity: 150
+    intensitySlope: 2.5
+    maxIntensity: 50
+    canCreateVacuum: false
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:ExplodeBehavior

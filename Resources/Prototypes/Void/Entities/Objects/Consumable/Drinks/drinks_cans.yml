@@ -1,0 +1,45 @@
+﻿# Не стоит спрашивать почему это необходимо в игре, я сам не знаю.
+- type: entity
+  parent: [ DrinkBaseMaterialMetal, DrinkBase, DrinkBaseOpenable, DrinkVisualsOpenable ]
+  id: DrinkBeerCanBad
+  name: пиво "Баринъ"
+  description: Печально известное.
+  suffix: Full
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: BadBeer
+          Quantity: 30
+      grindable: &grindable
+        reagents: # 5u -> 1/2 steel sheet (10u)
+        - ReagentId: Aluminium # Fun fact: soda can makeup is approx. 75% aluminium and 25% tin/iron.
+          Quantity: 4
+        - ReagentId: Iron
+          Quantity: 1
+  - type: SolutionTransfer
+    canChangeTransferAmount: true
+    maxTransferAmount: 15
+  - type: Extractable
+    grindableSolutionName: grindable
+  - type: FitsInDispenser
+    solution: drink
+  - type: Sprite
+    sprite: Void/Objects/Consumable/Drinks/bad_beer_can.rsi
+  - type: Item
+    sprite: Void/Objects/Consumable/Drinks/bad_beer_can.rsi
+  - type: Tool
+    qualities:
+    - Rolling
+    speedModifier: 0.25 # its small so takes longer to roll the entire dough flat
+  - type: SpaceGarbage
+  - type: TrashOnSolutionEmpty
+    solution: drink
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 50 #reduce, reuse, recycle
+  - type: Tag
+    tags:
+    - DrinkCan

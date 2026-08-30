@@ -1,0 +1,9 @@
+﻿- type: flavor
+  id: bad-decision
+  flavorType: Complex
+  description: flavor-complex-bad-decision
+
+- type: flavor
+  id: bad-beer
+  flavorType: Complex
+  description: flavor-complex-bad-beer

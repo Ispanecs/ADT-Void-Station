@@ -1,0 +1,133 @@
+﻿- type: entity
+  name: баночка рутбира # Я НЕ БУДУ ПИТЬ РУТБИР
+  description: Вкуснейший рутбир, теперь в компактной банке!
+  parent: [VolatileGrenadeBase, TimerGrenadeBase]
+  id: thething
+  suffix: Адмемы
+  components:
+  - type: Sprite
+    sprite: Void/Objects/Fun/thething.rsi
+  - type: ExplodeOnTrigger
+    keysIn:
+    - timer
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 10
+    intensitySlope: 3
+    totalIntensity: 240 # about a ~4 tile radius
+    canCreateVacuum: false
+  - type: TimerTrigger
+    beepSound:
+      path: "/Audio/Void/Effects/Fun/the_thing.ogg" 
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 3 # 2 beeps total (at 0 and 2)
+
+- type: entity
+  parent: FoodInjectableBase # Not sliceable
+  id: FoodPieSlicePoisoned
+  suffix: Отравленный
+  name: кусок тыквенного пирога
+  description: Кусочек пирога. Объедение!
+  components:
+  - type: Item
+    size: Tiny
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - pumpkin
+      - bad-decision
+  - type: Sprite
+    sprite: Objects/Consumable/Food/Baked/pie.rsi
+    state: pumpkin-slice
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 12
+        reagents:
+        - ReagentId: Lexorin
+          Quantity: 12 # Не доводит до крита при полном здоровье
+  - type: Tag
+    tags:
+    - Pie
+    - Slice
+
+- type: entity
+  parent: ImmovableRod
+  id: ImmovableRodBugatti
+  suffix: Bugatti
+  components:
+  - type: ImmovableRod
+    minSpeed: 5
+    maxSpeed: 15
+    destroyTiles: false
+    randomizeVelocity: false
+    shouldGib: false
+    damage:
+      types:
+        Blunt: 200
+  - type: Physics
+    bodyType: KinematicController
+  - type: MovementIgnoreGravity
+    gravityState: true
+  - type: InputMover
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 5
+    weightlessModifier: 2
+    weightlessFriction: 0
+    friction: 0
+    frictionNoInput: 0
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: NoSlip
+  - type: TimedDespawn
+    lifetime: 30.0
+  - type: AmbientSound
+    volume: 5
+    range: 25
+    sound:
+      path: /Audio/Void/Ambience/Objects/bugatti.ogg
+
+- type: entity
+  parent: ImmovableRod
+  id: ImmovableRodSova
+  suffix: Сова
+  components:
+  - type: ImmovableRod
+    minSpeed: 5
+    maxSpeed: 15
+    destroyTiles: false
+    randomizeVelocity: false
+    shouldGib: false
+    damage:
+      types:
+        Blunt: 200
+  - type: Physics
+    bodyType: KinematicController
+  - type: MovementIgnoreGravity
+    gravityState: true
+  - type: InputMover
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 5
+    weightlessModifier: 2
+    weightlessFriction: 0
+    friction: 0
+    frictionNoInput: 0
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: NoSlip
+  - type: PointLight
+    radius: 3
+    color: white
+    energy: 2.0
+  - type: Sprite
+    sprite: ADT/Objects/Fun/toys.rsi
+    state: plushie_owl
+    noRot: true
+  - type: Pullable
+  - type: AmbientSound
+    volume: 5
+    range: 25
+    sound:
+      path: /Audio/Void/Ambience/Objects/sova.ogg

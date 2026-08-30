@@ -954,20 +954,6 @@ entities:
     - type: Transform
       pos: 1.80656,-0.5440184
       parent: 1
-- proto: PockedPlayerUnpowered
-  entities:
-  - uid: 207
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5903001,-2.5374641
-      parent: 1
-  - uid: 208
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.6085765,-2.2129803
-      parent: 1
 - proto: Poweredlight
   entities:
   - uid: 201
