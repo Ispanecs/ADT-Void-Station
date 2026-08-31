@@ -14270,3 +14270,9 @@ Entries:
     id: 1832
     pr_number: 6
     time: '2026-08-30T12:31:27Z'
+  - author: (Ispanecs)
+    changes:
+      - {message: размер корп куртки сб, type: Fix}
+    id: 1833
+    pr_number: 7
+    time: '2026-08-31T16:36:27Z'
