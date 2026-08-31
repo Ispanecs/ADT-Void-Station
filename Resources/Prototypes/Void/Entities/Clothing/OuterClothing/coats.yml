@@ -102,3 +102,7 @@
         Slash: 0.8
         Piercing: 0.9
         Heat: 0.9
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,3,2
