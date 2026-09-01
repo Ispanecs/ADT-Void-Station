@@ -14276,3 +14276,9 @@ Entries:
     id: 1833
     pr_number: 7
     time: '2026-08-31T16:36:27Z'
+  - author: KeviNeon987
+    changes:
+      - {message: Поправил server_config, type: Fix}
+    id: 1834
+    pr_number: 8
+    time: '2026-09-01T13:32:00Z'
