@@ -1,45 +1,57 @@
 - type: vendingMachineInventory
   id: CentDrobeInventory
   startingInventory:
-    ClothingShoesBootsLaceup: 3
-    ClothingShoesBootsJack: 3
-    ClothingHandsGlovesCombat: 3
-    ClothingEyesGlassesSunglasses: 3
-    ClothingUniformJumpsuitCentcomOfficer: 3
-    ClothingUniformJumpsuitCentcomOfficial: 3
-    ClothingUniformJumpsuitCentcomAgent: 3
-    ClothingUniformJumpsuitCentcomFormal: 3
-    ClothingUniformJumpskirtCentcomFormalDress: 3
-    ClothingHeadHatCentcom: 3
-    ClothingHeadHatCentcomcap: 3
-    ClothingMaskGasCentcom: 3
-    #ClothingHeadsetCentCom: 3 # ADT-tweak
-    ClothingOuterWinterCentcom: 3
-    ClothingOuterCoatExpensive: 1
-    ClothingNeckScarfStripedCentcom: 3
-    ClothingNeckCloakCentcom: 3
-    ADTClothingOuterCoatCentCom: 3 #ADT-Tweak
-    ADTClothingCentComSatchel: 3 #ADT-Tweak
-    ADTClothingUnderwearSocksCentcom: 2 #ADT-Tweak
-    ADTClothingUnderwearSocksKneeCentcom: 2 #ADT-Tweak
-    ADTClothingUnderwearSocksThighCentcom: 2 #ADT-Tweak
-#Void Sector
-    ClothingNeckCloakCentCom: 3
-    CapDispatchCentCom: 1
-    CapOperatorCentCom: 1
-    CapIntendantCentCom: 1
-    CapOKOCentCom: 1
-    JumpSuitDispatchCentCom: 1
-    JumpSuitOperatorCentCom: 1
-    JumpSuitIntendantCentCom: 1
-    JumpSuitOKOCentCom: 1
-    JumpSuitOKOCentComWhite: 1
-    ClothingNeckDispatchCentCom: 1
-    ClothingNeckOperatorCentCom: 1
-    ClothingNeckIntendantCentCom: 1
-    ClothingNeckWhiteCentCom: 1
-    ClothingEyesGlassesCentcom: 3
-
+    # ADT-Tweak start
+    ADTVendingCategoryShoes:
+        ClothingShoesBootsLaceup: 3
+        ClothingShoesBootsJack: 3
+    ADTVendingCategoryAccessories:  # ADT-Tweak
+        ClothingHandsGlovesCombat: 3
+        ClothingEyesGlassesSunglasses: 3
+        ClothingMaskGasCentcom: 3
+        #ClothingHeadsetCentCom: 3 # ADT-tweak
+        ClothingNeckScarfStripedCentcom: 3
+        ClothingNeckCloakCentcom: 3
+        # Void Sector start
+        ClothingNeckDispatchCentCom: 1
+        ClothingNeckOperatorCentCom: 1
+        ClothingNeckIntendantCentCom: 1
+        ClothingNeckWhiteCentCom: 1
+        ClothingEyesGlassesCentcom: 3
+        # Void Sector end
+    ADTVendingCategoryUniforms:  # ADT-Tweak
+        ClothingUniformJumpsuitCentcomOfficer: 3
+        ClothingUniformJumpsuitCentcomOfficial: 3
+        ClothingUniformJumpsuitCentcomAgent: 3
+        ClothingUniformJumpsuitCentcomFormal: 3
+        ClothingUniformJumpskirtCentcomFormalDress: 3
+        # Void Sector start
+        JumpSuitDispatchCentCom: 1
+        JumpSuitOperatorCentCom: 1
+        JumpSuitIntendantCentCom: 1
+        JumpSuitOKOCentCom: 1
+        JumpSuitOKOCentComWhite: 1
+        # Void Sector end
+    ADTVendingCategoryHead:  # ADT-Tweak
+        ClothingHeadHatCentcom: 3
+        ClothingHeadHatCentcomcap: 3
+        # Void Sector start
+        CapDispatchCentCom: 1
+        CapOperatorCentCom: 1
+        CapIntendantCentCom: 1
+        CapOKOCentCom: 1
+        # Void Sector end
+    ADTVendingCategoryOuter:  # ADT-Tweak
+        ClothingOuterWinterCentcom: 3
+        ClothingOuterCoatExpensive: 1
+        ADTClothingOuterCoatCentCom: 3 #ADT-Tweak
+    ADTVendingCategoryBackpacks:  # ADT-Tweak
+        ADTClothingCentComSatchel: 3 #ADT-Tweak
+    ADTVendingCategoryUnderwear:  # ADT-Tweak
+        ADTClothingUnderwearSocksCentcom: 2 #ADT-Tweak
+        ADTClothingUnderwearSocksKneeCentcom: 2 #ADT-Tweak
+        ADTClothingUnderwearSocksThighCentcom: 2 #ADT-Tweak
+    # ADT-Tweak end
   contrabandInventory:
     ToyFigurineCaptain: 1
     ToyFigurineHeadOfPersonnel: 1

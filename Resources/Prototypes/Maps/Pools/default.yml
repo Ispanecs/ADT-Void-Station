@@ -26,10 +26,9 @@
   - ADT_Meta
   - ADT_Box
   # - ADT_Train
-  - ADT_Pump
 # Lowpop 20 - 35
   - ADT_Bagel
-  - ADT_Packed
+  #- ADT_Packed
   - ADT_Saltern
   - ADT_Aspid
   - ADT_Cluster
@@ -37,6 +36,7 @@
   - ADT_Reach
 # - ADT_Silly # Void Sector tweak
   - VS_Silly # Void Sector tweak
+  - ADT_Pump
 
 # ADT Maps Выведенные на переработку
   # - ADT_Gate пока минока не начнёт нормально работать
