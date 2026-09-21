@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingUniformBase
-  id: JumpSuitGeonaut
+  id: JumpsuitGeonaut
   name: униформа геонавта СССП
-  description: Стандартная унифорорма геонавта СССП. Текстиль почти невоспламеняемый. Почти.
+  description: Стандартная униформа геонавта СССП. Текстиль почти невоспламеняемый. Почти.
   suffix: СССП, VS
   components:
   - type: Sprite
