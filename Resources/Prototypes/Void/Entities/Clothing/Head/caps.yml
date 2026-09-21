@@ -1,0 +1,47 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKGBCaptainCap
+  name: фуражка капитана КГБ
+  description: Фуражка для капитана КГБ.
+  suffix: СССП, VS
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/ussp_cap_kgb_captain.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/ussp_cap_kgb_captain.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatUSSPCap
+  name: фуражка СССП
+  description: Стильная фуражка, входящая в стандартное обеспечение войсковых частей СССП.
+  suffix: СССП, VS
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/usspcap.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/usspcap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatUSSPCap2
+  name: фуражка СССП
+  description: Стильная фуражка, входящая в стандартное обеспечение войсковых частей СССП.
+  suffix: СССП, VS
+  components:
+  - type: Sprite
+    sprite: Void/Clothing/Head/Hats/usspcap2.rsi
+  - type: Clothing
+    sprite: Void/Clothing/Head/Hats/usspcap2.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
